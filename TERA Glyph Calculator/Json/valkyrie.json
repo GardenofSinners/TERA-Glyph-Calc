@@ -1,0 +1,887 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Spirited Slash",
+            "level": "24",
+            "cost": "3",
+            "description": "Increases MP replenishment by 15%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          },
+          {
+            "name": "Swift Slash",
+            "level": "28",
+            "cost": "4",
+            "description": "10% chance to increase Attack Speed by 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "2",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Slash",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "3"
+          },
+          {
+            "name": "Empowered Slash",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "3",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Slash",
+        "description": "Attack enemies with a series of sweeping blows while moving forward. The fourth successful hit with this skill has a greatly increased chance to crit, and resets the cooldown of Leaping Slash. [PvP] The first hit of Slash staggers an enemy player."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Overhead Slash",
+            "level": "28",
+            "cost": "3",
+            "description": "Increases skill damage of Leaping Slash by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "4",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Overhead Slash",
+            "level": "32",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "5"
+          },
+          {
+            "name": "Energetic Overhead Slash",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "5",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Overhead Slash",
+        "description": "Spin your runeglaive twice in a wide arc, damaging all nearby enemies with each pass. A successful hit stuns a target for 2.5 seconds"
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Glaive Strike",
+            "level": "28",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "6",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Glaive Strike",
+            "level": "32",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "7",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Glaive Strike",
+            "level": "24",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "8"
+          },
+          {
+            "name": "Empowered Glaive Strike",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "8"
+          },
+          {
+            "name": "Empowered Glaive Strike",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "8",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Glaive Strike",
+        "description": "Toss your runeglaive in the air, then slam it into the ground to cause a massive explosion. Has a high chance to knock down nearby enemies. Must be used within 4 seconds after [Leaping Slash]. [Runemark] Generates 2 Runemarks on a successful hit."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Charge",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "9",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Charge",
+            "level": "58",
+            "cost": "2",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "10",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Charge",
+        "description": "Dash forward and attack a target within 20m. [PvP] A successful hit stuns an enemy player. [Runemark] Generates 1 Runemark on a successful hit, if the target does not have any Runemarks."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Maelstrom",
+            "level": "48",
+            "cost": "3",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "11",
+            "highest": "1"
+          },
+          {
+            "name": "Restorative Maelstrom",
+            "level": "44",
+            "cost": "4",
+            "description": "Recovers 3.0% of total HP per successful hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "12"
+          },
+          {
+            "name": "Restorative Maelstrom",
+            "level": "60",
+            "cost": "4",
+            "description": "Recovers 5.0% of total HP per successful hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "12",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Maelstrom",
+            "level": "40",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "13"
+          },
+          {
+            "name": "Carving Maelstrom",
+            "level": "65",
+            "cost": "5",
+            "description": "Triples the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "13",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Maelstrom",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "14",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Maelstrom",
+        "description": "Pull your enemies toward you with a damaging vortex attack, which has a high chance of knockdown on minions and normal monsters. The final swing has double the normal chance to crit. [Runemark] Generates 1 Runemark on every successful hit."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Leaping Slash",
+            "level": "24",
+            "cost": "2",
+            "description": "Reduces MP cost by 100.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "15",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Leaping Slash",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "16",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Leaping Slash",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "17"
+          },
+          {
+            "name": "Carving Leaping Slash",
+            "level": "65",
+            "cost": "4",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "17",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Leaping Slash",
+        "description": "Leap into the air with a sweeping attack, then slam your enemies with a powerful overhand strike. Minions and normal monsters will be knocked in air, then struck down to ground. You can follow up with Ground Bash and Glaive Strike. [PvP] A successful 2-hit combo has a high chance of knockdown. [Runemark] Generates 1 Runemark on a successful 2-hit combo."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Spinning Death",
+            "level": "40",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "18",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Spinning Death",
+            "level": "44",
+            "cost": "4",
+            "description": "Increases damage of all attack skills by 15% for 3 seconds after a 3-hit combo.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "19"
+          },
+          {
+            "name": "Powerlinked Spinning Death",
+            "level": "60",
+            "cost": "4",
+            "description": "Increases damage of all attack skills by 20% for 3 seconds after a 3-hit combo.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "19",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Spinning Death",
+        "description": "Perform a quick vertical attack. This skill can be used up to three times in a row by holding down the skill button, or pressing it again within 5 seconds. Third cast of this skills has a high chance to knock down enemies. [PvP] The first and second hits of this skill can stagger enemy players. [Runemark] A successful 3-hit combo generates 1 Runemark and will reset the cooldown of [Leaping Slash]."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Titansbane",
+            "level": "65",
+            "cost": "6",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "20"
+          },
+          {
+            "name": "Energetic Titansbane",
+            "level": "65",
+            "cost": "5",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "20",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Titansbane",
+            "level": "65",
+            "cost": "2",
+            "description": "Reduces MP cost by 50.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "21"
+          },
+          {
+            "name": "Brilliant Titansbane",
+            "level": "65",
+            "cost": "1",
+            "description": "Reduces MP cost by 50.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "21",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Titansbane",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "22",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Titansbane",
+        "description": " Plant your runeglaive at your feet to cause a massive release of dream energy, and begin stacking a powerful effect on you and your allies. Press the skill button again to trigger an even larger explosion. [Arun's Wail] - Increases the skill damage of you and your allies by 20% per stack. Stacks up to 5 times. - Increases the chance to crit of the secondary explosion by 20% per stack. Stacks up to 5 times. [Shara's Scream] When [Ragnarok] is in effect, this skill grants Shara's Scream instead. - Increases the skill damage of you and your allies by 30% per stack. Stacks up to 5 times. - Increases the chance to crit of the secondary explosion by 30% per stack. Stacks up to 5 times."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Ground Bash",
+            "level": "20",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "23"
+          },
+          {
+            "name": "Carving Ground Bash",
+            "level": "5",
+            "cost": "4",
+            "description": "Triples the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "1",
+            "group": "23",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Ground Bash",
+            "level": "24",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "24"
+          },
+          {
+            "name": "Empowered Ground Bash",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "24",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Ground Bash",
+        "description": "Slam your runeglaive on the ground for massive damage. Must be used within 4 seconds after [Leaping Slash]. [Runemark] Generates 1 Runemark on a successful hit."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Hastened Dream Slash",
+            "level": "20",
+            "cost": "3",
+            "description": "Speeds casting by 20%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "25",
+            "highest": "1"
+          },
+          {
+            "name": "Slowing Dream Slash",
+            "level": "24",
+            "cost": "2",
+            "description": "Decreases opponent's Movement Speed by 50% for 5 seconds.",
+            "image": "E_crestpassivespeeddown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "26",
+            "highest": "1"
+          },
+          {
+            "name": "Brutal Dream Slash",
+            "level": "24",
+            "cost": "4",
+            "description": "Doubles damage to the knocked-down target.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "27",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Dream Slash",
+            "level": "28",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "28"
+          },
+          {
+            "name": "Carving Dream Slash",
+            "level": "60",
+            "cost": "5",
+            "description": "Triples the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "28",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Dream Slash",
+        "description": "Throw a blazing crescent of dream energy up to 30m, damaging all enemies in its path. Deals crit damage to knocked down enemies or enemies suspended in air. [Runemark] A successful hit on a target with at least one Runemark resets the cooldown of [Leaping Slash] and generates 1 Runemark."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Shining Crescent",
+            "level": "54",
+            "cost": "3",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "29",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Shining Crescent",
+            "level": "46",
+            "cost": "2",
+            "description": "Reduces MP cost by 50.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "30"
+          },
+          {
+            "name": "Brilliant Shining Crescent",
+            "level": "65",
+            "cost": "1",
+            "description": "Reduces MP cost by 50.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "30",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Shining Crescent",
+            "level": "50",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "31"
+          },
+          {
+            "name": "Empowered Shining Crescent",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "31"
+          },
+          {
+            "name": "Empowered Shining Crescent",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "5",
+            "group": "31",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Shining Crescent",
+        "description": "Disrupt Runemarks on a target to create an explosion of dream energy, dealing damage based on the number of Runemarks it bears and with a high chance to crit. The target is suspended in air (or possibly staggered, if a boss or enemy player). If the target has 7 Runemarks, press the skill button again to trigger an even larger explosion. [Runemark] Generates 2 Runemarks on a successful second hit."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Ragnarok",
+            "level": "58",
+            "cost": "5",
+            "description": "Increases effect duration by 15%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "32",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Ragnarok",
+        "description": " Activate when the Ragnarok meter is full to reset all skills with cooldowns of 60 sec or less (except for [Evasion] and [Retaliate]), and gain the following effects: - Increases Power by 50 - Increases Attack Speed by 20 - Increases Attack Range by 20% - Decreases skill cooldowns by 60% when casting skills with cooldowns of 60 sec or less."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Ardent Bloodflower",
+            "level": "58",
+            "cost": "3",
+            "description": "Generates an additional 5 Ragnarok points on a successful hit.",
+            "image": "E_creststrecover_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "33",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Bloodflower",
+            "level": "28",
+            "cost": "3",
+            "description": "Increases skill damage of Leaping Slash by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "34",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Bloodflower",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases Crit Power by 2.",
+            "image": "E_creststrecover_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "35"
+          },
+          {
+            "name": "Carving Bloodflower",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases Crit Power by 2.",
+            "image": "E_creststrecover_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "35",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "Bloodflower",
+        "description": "Stab a target repeatedly, applying Bleed. Targets with 6 stacks of Bleed are stunned for 4 seconds. [Runemark] A successful final hit is guaranteed to generate 1 Runemark."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Persistent Evasion",
+            "level": "20",
+            "cost": "4",
+            "description": "30% chance to reset cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "36",
+            "highest": "1"
+          },
+          {
+            "name": "Opportunistic Evasion",
+            "level": "28",
+            "cost": "3",
+            "description": "Eliminates the cooldown of Bloodflower after Perfect Evasion.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "37"
+          },
+          {
+            "name": "Opportunistic Evasion",
+            "level": "65",
+            "cost": "2",
+            "description": "Eliminates the cooldown of Bloodflower after Perfect Evasion.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "37",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "Evasion",
+        "description": "Vault forward to evade enemy attacks. You can evade twice within 4 seconds. Correct timing grants Perfect Evasion. [Perfect Evasion] Your next attack with any skill but [Slash] has a guaranteed chance to crit."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Windslash",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage of Leaping Slash by 25%.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "38",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Windslash",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "39",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Windslash",
+        "description": "Spin your runeglaive in a tight circle to damage nearby enemies. Resets the cooldown of Leaping Slash."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Ardent Runeburst",
+            "level": "58",
+            "cost": "3",
+            "description": "Generates 5 Ragnarok points on a successful hit.",
+            "image": "E_creststrecover_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "40",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Runeburst",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "41"
+          },
+          {
+            "name": "Empowered Runeburst",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "41"
+          },
+          {
+            "name": "Empowered Runeburst",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "41",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Runeburst",
+        "description": "Detonate Runemarks, damaging all enemies within 6m. Each detonated Runemark replenishes 100MP, and has a high chance to stagger. Generating 7 Runemarks resets the cooldown of this skill. The crit rate of this skill is 3 time higher."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Restorative Balder's Tears",
+            "level": "52",
+            "cost": "4",
+            "description": "Recovers 3% of total HP every second for 12 seconds.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "42",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Balder's Tears",
+            "level": "56",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "43",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Balder's Tears",
+        "description": "Summons three glowing spheres of dream energy that each block 70% of the damage from an incoming attack. You are immune to knockdown, stagger, and push-back while the spheres are active."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Retaliate",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "44",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Retaliate",
+            "level": "24",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "45",
+            "highest": "1"
+          }
+        ],
+        "id": "r",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target. You can use this skill only when knocked-down. You become immune to knockdown, stagger, stun, and push-back for 2 seconds."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Reclamation",
+            "level": "46",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "46",
+            "highest": "1"
+          }
+        ],
+        "id": "s",
+        "name": "Reclamation",
+        "description": "Transfer all Runemarks from the primary target to yourself. [Runemark] Generates 1 Runemark."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Backstab",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage of your next attack by 30% for a few seconds.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "0",
+            "group": "47",
+            "highest": "1"
+          }
+        ],
+        "id": "t",
+        "name": "Backstab",
+        "description": "Teleport directly behind a target within 17m and attack. Staggers enemy players on a successful hit. You do not receive damage while teleporting. A successful hit on a target bearing a Runemark resets the cooldown of [Leaping Slash]."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Dark Herald",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage of Runeburst by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "48",
+            "highest": "1"
+          }
+        ],
+        "id": "u",
+        "name": "Dark Herald",
+        "description": "Pulls all enemies within 12m of a target bearing Runemarks, even if that target is you. Stuns monsters for 3 seconds. [PvP] Players pulled by [Dark Herald] are immune to the effect for 20 seconds."
+      }
+    ]
+  }
+}

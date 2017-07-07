@@ -1,0 +1,1191 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Empowered Divine Radiance",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Divine Radiance",
+        "description": "Project a pulse of energy at an enemy up to 18m away."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Regeneration Circle",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases effect duration by 30%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "2",
+            "highest": "1"
+          },
+          {
+            "name": "Influential Regeneration Circle",
+            "level": "20",
+            "cost": "3",
+            "description": "Reduces MP cost of Focus Heal by 85 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "3",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Regeneration Circle",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "4"
+          },
+          {
+            "name": "Energetic Regeneration Circle",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "4",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Regeneration Circle",
+        "description": "Up to 5 allies within 16m of you heal X every 2 sec for 10 sec (modified by your heal bonus)."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Restorative Healing Circle",
+            "level": "26",
+            "cost": "5",
+            "description": "Increases HP recovery by 10%.",
+            "image": "E_crestpassivehprecoveryup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "5",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Healing Circle",
+        "description": "Heal X HP for up to 5 nearby group members other than you (modified by your heal bonus)."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Blessing of Shakan",
+            "level": "26",
+            "cost": "2",
+            "description": "Increases effect duration by 30%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "6",
+            "highest": "1"
+          },
+          {
+            "name": "Fleetfooted Blessing of Shakan",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases caster's Combat Movement Speed by 15 for 10 minutes.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "7"
+          },
+          {
+            "name": "Fleetfooted Blessing of Shakan",
+            "level": "58",
+            "cost": "2",
+            "description": "Increases caster's Combat Movement Speed by 15 for 10 minutes.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "7",
+            "highest": "1"
+          },
+          {
+            "name": "Boosted Blessing of Shakan",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases the non-combat Movement Speed by an additional 50%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "8"
+          },
+          {
+            "name": "Boosted Blessing of Shakan",
+            "level": "60",
+            "cost": "2",
+            "description": "Increases the non-combat Movement Speed by an additional 50%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "8",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Blessing of Shakan",
+        "description": "You and your allies receive a blessing that increases your Power by 25 and Movement Speed by 10 for 15 min."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Arise",
+            "level": "24",
+            "cost": "2",
+            "description": "Decreases cooldown by 50%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "9",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Arise",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases effect duration by 100%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "10",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Arise",
+        "description": "Instantly stands group members up to 20m away and increases Balance Factor by X% for 5 sec."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Spirited Mana Infusion",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases MP replenishment by 20%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "11"
+          },
+          {
+            "name": "Spirited Mana Infusion",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases MP replenishment by 20%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "11",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Mana Infusion",
+            "level": "20",
+            "cost": "3",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "12"
+          },
+          {
+            "name": "Hastened Mana Infusion",
+            "level": "60",
+            "cost": "2",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "12",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Mana Infusion",
+        "description": "You regain 100 MP every 1 sec for 20 sec. Ends if you take damage or use a combat skill or item."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Purifying Circle",
+            "level": "20",
+            "cost": "2",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "13",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Purifying Circle",
+        "description": "Instantly removes all harmful effects from up to 15 allies within 17m."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Metamorphic Blast",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 33.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "14",
+            "highest": "1"
+          },
+          {
+            "name": "Numbing Metamorphic Blast",
+            "level": "20",
+            "cost": "4",
+            "description": "20% chance to decrease opponent's Attack Speed by 15% for 7 seconds.",
+            "image": "E_crestactiveattackspeeddown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "15",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Metamorphic Blast",
+        "description": "Project a cone of divine energy that damages nearby enemies."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Hastened Resurrect",
+            "level": "20",
+            "cost": "4",
+            "description": "Speeds casting by 30%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "16",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Resurrect",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 510.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "17"
+          },
+          {
+            "name": "Brilliant Resurrect",
+            "level": "58",
+            "cost": "2",
+            "description": "Reduces MP cost by 510.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "17",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Resurrect",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 50%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "18"
+          },
+          {
+            "name": "Energetic Resurrect",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 60%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "18",
+            "highest": "1"
+          },
+          {
+            "name": "Hearty Resurrect",
+            "level": "60",
+            "cost": "3",
+            "description": "Restores 100% of HP and MP upon resurrecting.",
+            "image": "E_crestpassivehprecoveryup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "19"
+          },
+          {
+            "name": "Hearty Resurrect",
+            "level": "65",
+            "cost": "2",
+            "description": "Restores 100% of HP and MP upon resurrecting.",
+            "image": "E_crestpassivehprecoveryup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "6",
+            "group": "19",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Resurrect",
+        "description": "When dead group members lie within 5m, you can restore life to the nearest 1."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Summon Party",
+            "level": "22",
+            "cost": "2",
+            "description": "Reduces MP cost by 800.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "20",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Summon Party",
+            "level": "22",
+            "cost": "1",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "21",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Summon Party",
+        "description": "Teleport all group members within the same province to your side. You cannot teleport group members who are in other provinces."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Shocking Implosion",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage of Final Reprisal by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "22"
+          },
+          {
+            "name": "Powerlinked Shocking Implosion",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage of Final Reprisal by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "22"
+          },
+          {
+            "name": "Powerlinked Shocking Implosion",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage of Final Reprisal by 40% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "2",
+            "group": "22",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Shocking Implosion",
+        "description": "Produce an electrical burst 3m in front of you."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Hastened Prayer of Peace",
+            "level": "36",
+            "cost": "3",
+            "description": "Speeds casting by 100%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "23",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Prayer of Peace",
+        "description": "Nullify your aggro from nearby enemies."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Restorative Heal Thyself",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases HP recovery by 20%.",
+            "image": "E_crestpassivehprecoveryup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "24"
+          },
+          {
+            "name": "Restorative Heal Thyself",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases HP recovery by 20%.",
+            "image": "E_crestpassivehprecoveryup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "24",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "Heal Thyself",
+        "description": "Restore X HP to yourself (modified by your heal bonus)."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Multiplicative Focus Heal",
+            "level": "20",
+            "cost": "2",
+            "description": "Increases number of lock-on targets by 2.",
+            "image": "E_crestpassivelockontargetup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "25",
+            "highest": "1"
+          },
+          {
+            "name": "Longshot Focus Heal",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases range by 3 meters.",
+            "image": "E_crestpassiverangeup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "26",
+            "highest": "1"
+          },
+          {
+            "name": "Soothing Focus Heal",
+            "level": "58",
+            "cost": "4",
+            "description": "Decrease aggro by 20%",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "27",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "Focus Heal",
+        "description": "Restore X HP to 2 targeted party members within 19m (modified by your heal bonus). Press the skill button once and mouse over to lock on targets, then press the skill button again or left-click to heal all targets."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Grounded Kaia's Shield",
+            "level": "42",
+            "cost": "5",
+            "description": "Increases caster's Endurance by 30% for 12 seconds.",
+            "image": "E_crestactivedefenceup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "28",
+            "highest": "1"
+          },
+          {
+            "name": "Regenerating Kaia's Shield",
+            "level": "58",
+            "cost": "4",
+            "description": "Recovers 5% of total HP every 2 seconds for 6 seconds for all targets.",
+            "image": "E_crestpassivehpwhileheal_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "29",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Kaia's Shield",
+            "level": "42",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "30"
+          },
+          {
+            "name": "Energetic Kaia's Shield",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "rare": "1",
+            "master": null,
+            "id": "3",
+            "group": "30",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Kaia's Shield",
+        "description": "Cast a barrier that absorbs X damage on up to 5 allies within 18m for 12 sec. Effect ends when it reaches damage limit."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Blessing of Balder",
+            "level": "34",
+            "cost": "2",
+            "description": "Increases effect duration by 30%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "31",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Blessing of Balder",
+        "description": "You and up to 25 allies within 15m heal X HP every 2 sec (modified by your heal bonus), Endurance and Resistances for 15 min."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Retaliate",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "32",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Retaliate",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "33",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target. You can use this skill only when knocked down. You become briefly immune to knockdown, stagger, and stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Fiery Escape",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 30.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "34",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Fiery Escape",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "35"
+          },
+          {
+            "name": "Energetic Fiery Escape",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "2",
+            "group": "35",
+            "highest": "1"
+          }
+        ],
+        "id": "r",
+        "name": "Fiery Escape",
+        "description": "Damage targets in front of you, briefly decreasing their movement speed by X%, then fly backward."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Final Reprisal",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 62.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "36",
+            "highest": "1"
+          },
+          {
+            "name": "Slowing Final Reprisal",
+            "level": "20",
+            "cost": "5",
+            "description": "20% chance to decrease opponent's Movement Speed by 30% for 4 seconds.",
+            "image": "E_crestactivespeeddown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "37",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Final Reprisal",
+            "level": "20",
+            "cost": "6",
+            "description": "40% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "38"
+          },
+          {
+            "name": "Persistent Final Reprisal",
+            "level": "65",
+            "cost": "5",
+            "description": "50% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "38",
+            "highest": "1"
+          }
+        ],
+        "id": "s",
+        "name": "Final Reprisal",
+        "description": "Release energy from your staff that damages enemies within 4m. Can be used as a chain skill after Shocking Implosion or Triple Nemesis."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Hastened Mana Charge",
+            "level": "20",
+            "cost": "3",
+            "description": "Speeds charging by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "39",
+            "highest": "1"
+          },
+          {
+            "name": "Longshot Mana Charge",
+            "level": "20",
+            "cost": "2",
+            "description": "Increases range by 4 meters.",
+            "image": "E_crestpassiveskillrangeup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "40",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Mana Charge",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage of Shocking Implosion by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "41"
+          },
+          {
+            "name": "Powerlinked Mana Charge",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage of Shocking Implosion by 40% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "41",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Mana Charge",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases MP replenishment by 25%.",
+            "image": "E_crestpassivepartympup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "42"
+          },
+          {
+            "name": "Spirited Mana Charge",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases MP replenishment by 50%.",
+            "image": "E_crestpassivepartympup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "42"
+          },
+          {
+            "name": "Spirited Mana Charge",
+            "level": "65",
+            "cost": "2",
+            "description": "Increases MP replenishment by 50%.",
+            "image": "E_crestpassivepartympup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "6",
+            "group": "42",
+            "highest": "1"
+          }
+        ],
+        "id": "t",
+        "name": "Mana Charge",
+        "description": "Hold down the skill button, then release it to restore MP to you and up to 25 party\/raid members within 18m. The longer you hold down the button, the more MP is restored. While charging up, you can move at full speed."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Triple Nemesis",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage of Metamorphic Blast by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "43"
+          },
+          {
+            "name": "Powerlinked Triple Nemesis",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage of Metamorphic Blast by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "43",
+            "highest": "1"
+          },
+          {
+            "name": "Enfeebling Triple Nemesis",
+            "level": "20",
+            "cost": "4",
+            "description": "100% chance to decrease Endurance by 10% for 12 seconds.<br>Does not stack with Kaia's Binding.",
+            "image": "E_crestactivedefencedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "44"
+          },
+          {
+            "name": "Enfeebling Triple Nemesis",
+            "level": "65",
+            "cost": "3",
+            "description": "100% chance to decrease Endurance by 10% for 12 seconds.<br>Does not stack with Kaia's Binding.",
+            "image": "E_crestactivedefencedown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "44",
+            "highest": "1"
+          }
+        ],
+        "id": "u",
+        "name": "Triple Nemesis",
+        "description": "Throw energy pulses at a target up to 18m away. Holding or repeatedly pressing the skill button generates up to three pulses. Reduced damage at max distance."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Plague of Exhaustion",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "45"
+          },
+          {
+            "name": "Energetic Plague of Exhaustion",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "45"
+          },
+          {
+            "name": "Energetic Plague of Exhaustion",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "2",
+            "group": "45",
+            "highest": "1"
+          }
+        ],
+        "id": "v",
+        "name": "Plague of Exhaustion",
+        "description": "Call up a plague that immediately removes all beneficial effects and inflicts X damage every 3 sec for 15 sec on up to 4 targets within 18m. Against other players, the damage decreases, but their cooldown time increases by 50% for some of their skills. Press the skill button once and mouse over to lock on targets, then press the skill button again or left-click to plague all targets."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Guardian Sanctuary",
+            "level": "50",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "46",
+            "highest": "1"
+          },
+          {
+            "name": "Balancing Guardian Sanctuary",
+            "level": "58",
+            "cost": "4",
+            "description": "Doubles Balance for 30 seconds.",
+            "image": "E_crestactivereactionresist_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "47",
+            "highest": "1"
+          }
+        ],
+        "id": "w",
+        "name": "Guardian Sanctuary",
+        "description": "Reduces ranged damage taken by X% for X sec, while increasing weakening and DOT resistences by X% and greatly increasing stun resistance."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Divine Respite",
+            "level": "56",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "48",
+            "highest": "1"
+          }
+        ],
+        "id": "x",
+        "name": "Divine Respite",
+        "description": "Replenish X% of your total HP every 1 sec for 10 sec (modified by your heal bonus)."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Ishara's Lullaby",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "49",
+            "highest": "1"
+          }
+        ],
+        "id": "y",
+        "name": "Ishara's Lullaby",
+        "description": "Put target briefly to sleep. Press the skill button once and mouse over to lock on up to 1 target within 18m, then press the skill button again or left-click to cast at your target."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Restorative Burst",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases effect duration by 20%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "50",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Restorative Burst",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 275.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "51"
+          },
+          {
+            "name": "Brilliant Restorative Burst",
+            "level": "58",
+            "cost": "3",
+            "description": "Reduces MP cost by 275.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "51",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Restorative Burst",
+            "level": "60",
+            "cost": "5",
+            "description": "Increases MP replenishment of all targets by 50 MP per second.",
+            "image": "E_crestpassivepartympup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "52",
+            "highest": "1"
+          }
+        ],
+        "id": "z",
+        "name": "Restorative Burst",
+        "description": "Create a burst of healing 10 meters in front of you. Party members will regenerate X HP every second for 5 seconds (modified by your heal bonus)."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Energy Stars",
+            "level": "40",
+            "cost": "5",
+            "description": "Increases effect duration by 25%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "53",
+            "highest": "1"
+          },
+          {
+            "name": "Savage Energy Stars",
+            "level": "40",
+            "cost": "5",
+            "description": "Increases effect of Energy Stars by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "54",
+            "highest": "1"
+          }
+        ],
+        "id": "AA",
+        "name": "Energy Stars",
+        "description": "Fires an energy bolt at a target within 18m. The bolt damages the target while increasing the power of group members within 35 meters by X and attack speed by X% for X seconds. Press the skill button once and mouse over to lock on target, then press the skill button again or left-click to shoot."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Persistent Healing Immersion",
+            "level": "60",
+            "cost": "5",
+            "description": "40% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "55",
+            "highest": "1"
+          },
+          {
+            "name": "Restorative Healing Immersion",
+            "level": "60",
+            "cost": "5",
+            "description": "Increases HP recovery by 20%.",
+            "image": "E_crestpassivehprecoveryup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "56",
+            "highest": "1"
+          }
+        ],
+        "id": "AB",
+        "name": "Healing Immersion",
+        "description": "Lock on a target within 19m and fire a healing light to restore HP by X (modified by your heal bonus) to all party members within 7m of the locked target. Press the skill button once and mouse over to lock on the target, then press the skill button again or left-click to heal all targets."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Backstep",
+            "level": "20",
+            "cost": "2",
+            "description": "Decreases cooldown by 10%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "57",
+            "highest": "1"
+          }
+        ],
+        "id": "AC",
+        "name": "Backstep",
+        "description": "Quickly back up out of harm's way."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Grace of Resurrection",
+            "level": "60",
+            "cost": "2",
+            "description": "Decreases cooldown by 40%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "58",
+            "highest": "1"
+          }
+        ],
+        "id": "AD",
+        "name": "Grace of Resurrection",
+        "description": "Grants a blessing enabling the priest to resurrect immediately with 100% HP and MP, and 120% Stamina. The effect lasts for 20 min, and you can only resurrect while it is still in effect."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Zenobia's Vortex",
+            "level": "61",
+            "cost": "3",
+            "description": "Reduces MP cost by 100.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "59",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Zenobia's Vortex",
+            "level": "61",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "60",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Zenobia's Vortex",
+            "level": "61",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "61"
+          },
+          {
+            "name": "Energetic Zenobia's Vortex",
+            "level": "61",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "61"
+          },
+          {
+            "name": "Energetic Zenobia's Vortex",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "61",
+            "highest": "1"
+          }
+        ],
+        "id": "AE",
+        "name": "Zenobia's Vortex",
+        "description": "Unleashes a whirlwind up to 18m, dealing damage to all enemies in its path and briefly throwing them into the air, unless they are elite or BAMs."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Divine Intervention",
+            "level": "65",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "0",
+            "group": "62",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Divine Intervention",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases MP consumption by 150.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "63",
+            "highest": "1"
+          },
+          {
+            "name": "Longshot Divine Intervention",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases range by 4 meters.",
+            "image": "E_crestpassiveskillrangeup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "64"
+          },
+          {
+            "name": "Longshot Divine Intervention",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases range by 4 meters.",
+            "image": "E_crestpassiveskillrangeup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "64",
+            "highest": "1"
+          }
+        ],
+        "id": "AF",
+        "name": "Divine Intervention",
+        "description": "Retrieves a party member within 24m in front of the caster. Press the skill button once and mouse over to lock on target, then press the skill button again or left-click to activate the skill. Cannot grab an ally riding a mount or beyond an obstacle."
+      }
+    ]
+  }
+}

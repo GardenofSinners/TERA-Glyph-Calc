@@ -1,0 +1,1237 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Threatening Combo Attack",
+            "level": "25",
+            "cost": "5",
+            "description": "Increases aggro by 5%.",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          },
+          {
+            "name": "Sapping Combo Attack",
+            "level": "20",
+            "cost": "5",
+            "description": "5% chance to stun target for 2 seconds.",
+            "image": "E_crestactivestun_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "2",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Combo Attack",
+            "level": "25",
+            "cost": "3",
+            "description": "Increases MP replenishment by 35%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "3"
+          },
+          {
+            "name": "Spirited Combo Attack",
+            "level": "58",
+            "cost": "2",
+            "description": "Increases MP replenishment by 35%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "3",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Combo Attack",
+        "description": "Strike one or more targets in front of you, and gain MP with each hit. Successive strikes do more damage, up to four hits, with the fourth hit dealing substantially more."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Mending Evasive Roll",
+            "level": "20",
+            "cost": "4",
+            "description": "Recovers 3% of total HP when you follow up with Poison Blade.",
+            "image": "E_crestnextskillhpheal_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "4",
+            "highest": "1"
+          },
+          {
+            "name": "Swift Evasive Roll",
+            "level": "20",
+            "cost": "4",
+            "description": "30% chance to increase Attack Speed by 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "5"
+          },
+          {
+            "name": "Swift Evasive Roll",
+            "level": "65",
+            "cost": "3",
+            "description": "40% chance to increase Attack Speed by 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "5",
+            "highest": "1"
+          },
+          {
+            "name": "Affirmative Evasive Roll",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces RE cost by 100.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "6"
+          },
+          {
+            "name": "Affirmative Evasive Roll",
+            "level": "58",
+            "cost": "3",
+            "description": "Reduces RE cost by 100.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "6"
+          },
+          {
+            "name": "Affirmative Evasive Roll",
+            "level": "65",
+            "cost": "3",
+            "description": "Reduces RE cost by 120.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "5",
+            "group": "6",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Evasive Roll",
+        "description": "Dodge your enemy's attack."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Influential Torrent of Blows",
+            "level": "20",
+            "cost": "3",
+            "description": "Reduces MP cost of Rain of Blows by 88 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "7",
+            "highest": "1"
+          },
+          {
+            "name": "Binding Torrent of Blows",
+            "level": "20",
+            "cost": "6",
+            "description": "25% chance to immobilize target for 4 seconds.",
+            "image": "E_crestactivespeeddown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "8",
+            "highest": "1"
+          },
+          {
+            "name": "Threatening Torrent of Blows",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases aggro by 20%.",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "9"
+          },
+          {
+            "name": "Threatening Torrent of Blows",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases aggro by 40%.",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "9",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Torrent of Blows",
+        "description": "Swing your swords in a wide arc, drawing high aggro from surrounding enemies. While using this skill, you are less likely to be knocked down or staggered, and you take only half damage."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Rain of Blows",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "10"
+          },
+          {
+            "name": "Empowered Rain of Blows",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "10",
+            "highest": "1"
+          },
+          {
+            "name": "Restorative Rain of Blows",
+            "level": "25",
+            "cost": "5",
+            "description": "Recovers 0.5% of total HP per successful hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "11"
+          },
+          {
+            "name": "Restorative Rain of Blows",
+            "level": "58",
+            "cost": "4",
+            "description": "Recovers 0.5% of total HP per successful hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "11",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Rain of Blows",
+        "description": "Execute a flurry of sword swings while advancing on your foe. Damage taken is reduced by 30% and you are less likely to get staggered or knocked down. Activates faster if used after Combative Strike, Pounce or Cascade of Stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Battle Cry",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "12",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Battle Cry",
+            "level": "20",
+            "cost": "3",
+            "description": "Speeds casting by 50%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "13",
+            "highest": "1"
+          },
+          {
+            "name": "Lucky Battle Cry",
+            "level": "20",
+            "cost": "2",
+            "description": "Increases chance of effect by 10%.",
+            "image": "E_crestpassivethorns_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "14",
+            "highest": "1"
+          },
+          {
+            "name": "Threatening Battle Cry",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases aggro by 100%.",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "15",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Battle Cry",
+        "description": "Your warlike shout draws high aggro from enemies within 10m, and may stun them."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Grounded Defensive Stance",
+            "level": "20",
+            "cost": "6",
+            "description": "Increases Endurance by 10%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "16"
+          },
+          {
+            "name": "Grounded Defensive Stance",
+            "level": "58",
+            "cost": "5",
+            "description": "Increases Endurance by 10%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "16"
+          },
+          {
+            "name": "Grounded Defensive Stance",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases Endurance by 10%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "2",
+            "group": "16",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Defensive Stance",
+        "description": "Increases Endurance by X% and Balance Factor by X. Attacks draw X% more aggro. You can use only one stance at a time."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Swift Death From Above",
+            "level": "26",
+            "cost": "3",
+            "description": "50% chance to increase Attack Speed by 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "17",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Death From Above",
+            "level": "26",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "18"
+          },
+          {
+            "name": "Energetic Death From Above",
+            "level": "58",
+            "cost": "2",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "18",
+            "highest": "1"
+          },
+          {
+            "name": "Grounded Death From Above",
+            "level": "58",
+            "cost": "5",
+            "description": "Increases Endurance by 25 for 8 seconds.",
+            "image": "E_crestactivedefenceup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "19",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Death From Above",
+        "description": "Become invincible while executing a surprise blow."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Virulent Poison Blade",
+            "level": "22",
+            "cost": "6",
+            "description": "Increases poison damage by 15%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "20",
+            "highest": "1"
+          },
+          {
+            "name": "Cumulative Poison Blade",
+            "level": "60",
+            "cost": "3",
+            "description": "Poison Blade's damage stacks up to 2 times.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "21",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Poison Blade",
+        "description": "Poison on your swords wounds your foe for X HP every 2 sec for 10 sec. Does less damage to other players."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Leaping Strike",
+            "level": "24",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "22",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Leaping Strike",
+        "description": "Jump at your foe and smash downward. Knocked-down foes take 5x damage once you learn Merciless Leap."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Retaliate",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "23",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Retaliate",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "24",
+            "highest": "1"
+          },
+          {
+            "name": "Influential Retaliate",
+            "level": "20",
+            "cost": "2",
+            "description": "Reduces MP cost of Leaping Strike by 75 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "25",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target. You can use this skill only when knocked down. You become briefly immune to knockdown, stagger, and stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Charging Slash",
+            "level": "30",
+            "cost": "3",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "26",
+            "highest": "1"
+          },
+          {
+            "name": "Influential Charging Slash",
+            "level": "30",
+            "cost": "3",
+            "description": "Reduces MP cost of Poison Blade by 50 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "27",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Charging Slash",
+            "level": "30",
+            "cost": "4",
+            "description": "Increases skill damage of Combative Strike by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "28"
+          },
+          {
+            "name": "Powerlinked Charging Slash",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage of Combative Strike by 50% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "28"
+          },
+          {
+            "name": "Powerlinked Charging Slash",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage of Combative Strike by 50% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "28",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Charging Slash",
+        "description": "Charge toward your target, drawing high aggro."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Persistent Vortex Slash",
+            "level": "20",
+            "cost": "4",
+            "description": "30% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "29",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Vortex Slash",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "30"
+          },
+          {
+            "name": "Empowered Vortex Slash",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "30",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Vortex Slash",
+        "description": "Swing your swords in a wide arc. You can use it as a chain skill only after Evasive Roll or Death From Above."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Combative Strike",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage of Rising Fury by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "31",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Combative Strike",
+            "level": "20",
+            "cost": "2",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "32",
+            "highest": "1"
+          },
+          {
+            "name": "Sanative Combative Strike",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases HP consumption by 50%.",
+            "image": "E_crestpassivehpdown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "33"
+          },
+          {
+            "name": "Sanative Combative Strike",
+            "level": "58",
+            "cost": "2",
+            "description": "Decreases HP consumption by 50%.",
+            "image": "E_crestpassivehpdown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "33",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Combative Strike",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage of Leaping Strike by 35% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "34"
+          },
+          {
+            "name": "Powerlinked Combative Strike",
+            "level": "58",
+            "cost": "2",
+            "description": "Increases skill damage of Leaping Strike by 45% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "34",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "Combative Strike",
+        "description": "Sacrifice HP to deal a decisive attack, decreasing the Endurance of your targets by 8% and their HP recovery by 50%."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Persistent Rising Fury",
+            "level": "20",
+            "cost": "5",
+            "description": "25% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "35",
+            "highest": "1"
+          },
+          {
+            "name": "Numbing Rising Fury",
+            "level": "20",
+            "cost": "4",
+            "description": "10% chance to decrease an opponent's Attack Speed by 15% for 7 seconds.",
+            "image": "E_crestactiveattackspeeddown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "36"
+          },
+          {
+            "name": "Numbing Rising Fury",
+            "level": "58",
+            "cost": "4",
+            "description": "20% chance to decrease an opponent's Attack Speed by 15% for 7 seconds.",
+            "image": "E_crestactiveattackspeeddown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "36",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "Rising Fury",
+        "description": "Hit a target twice; the lower your HP, the greater the damage. Damage taken reduces by 20% while this skill is being used."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Deadly Gamble",
+            "level": "48",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "37",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Deadly Gamble",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases effect duration by 20%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "38"
+          },
+          {
+            "name": "Lingering Deadly Gamble",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases effect duration by 20%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "2",
+            "group": "38",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Deadly Gamble",
+        "description": "Increases your chance to crit by X% for 20 sec. Also, reduces melee attack skill cooldowns by half."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Cascade of Stuns",
+            "level": "58",
+            "cost": "4",
+            "description": "Reduces MP cost by 88.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "39",
+            "highest": "1"
+          },
+          {
+            "name": "Influential Cascade of Stuns",
+            "level": "58",
+            "cost": "3",
+            "description": "Reduces MP cost of Rain of Blows by 88 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "40",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Cascade of Stuns",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "41",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Cascade of Stuns",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "42",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Cascade of Stuns",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases effect duration by 25%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "43",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Cascade of Stuns",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage of Rain of Blows by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "5",
+            "group": "44"
+          },
+          {
+            "name": "Powerlinked Cascade of Stuns",
+            "level": "58",
+            "cost": "2",
+            "description": "Increases skill damage of Rain of Blows by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "6",
+            "group": "44",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Cascade of Stuns",
+        "description": "Slash a target in front of you. If you hit a stunned target, the stun spreads to nearby enemies."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Advantageous Backstab",
+            "level": "58",
+            "cost": "2",
+            "description": "Increases Edge generation by 1.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": "1",
+            "id": "0",
+            "group": "45",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Backstab",
+            "level": "42",
+            "cost": "3",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "46"
+          },
+          {
+            "name": "Lingering Backstab",
+            "level": "60",
+            "cost": "2",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "46",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Backstab",
+            "level": "42",
+            "cost": "5",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "47"
+          },
+          {
+            "name": "Energetic Backstab",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "47",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Backstab",
+        "description": "Rush 15m and make a lethal thrust to your target's back. The target is stunned for a short period of time."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Staggering Counter",
+            "level": "54",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "48",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Staggering Counter",
+            "level": "54",
+            "cost": "5",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "49",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Staggering Counter",
+            "level": "54",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "50",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Staggering Counter",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage of Cascade of Stuns by 10% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "51",
+            "highest": "1"
+          }
+        ],
+        "id": "r",
+        "name": "Staggering Counter",
+        "description": "Execute a counterattack that briefly stuns and turns your target around. You can use this skill as a counterattack only after you've been hit. Cannot be used while in Defensive Stance."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Smoke Aggressor",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "52"
+          },
+          {
+            "name": "Energetic Smoke Aggressor",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "52",
+            "highest": "1"
+          }
+        ],
+        "id": "s",
+        "name": "Smoke Aggressor",
+        "description": "Sacrifice 20% of your HP to summon a spirit for 20 seconds. Your spirit receives 1.5 times the HP you sacrificed and retains your aggro level from your enemies."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Pounce",
+            "level": "22",
+            "cost": "2",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "53",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Pounce",
+            "level": "22",
+            "cost": "3",
+            "description": "Speeds casting by 30%.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "54"
+          },
+          {
+            "name": "Hastened Pounce",
+            "level": "60",
+            "cost": "2",
+            "description": "Speeds casting by 30%.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "54",
+            "highest": "1"
+          }
+        ],
+        "id": "t",
+        "name": "Pounce",
+        "description": "Jump to target and slow target by 50% with a slash. You take only half damage while using skill."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Traverse Cut",
+            "level": "28",
+            "cost": "2",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "55",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Traverse Cut",
+            "level": "28",
+            "cost": "2",
+            "description": "Reduces MP cost by 75.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "56",
+            "highest": "1"
+          }
+        ],
+        "id": "u",
+        "name": "Traverse Cut",
+        "description": "Make 3 quick lunges to the front. Activates faster and attack up to 13 times if you first use Pounce, Poison Blade or Combative Strike. Target's Endurance decreases by 0.35% per each hit, and the effect stacks."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Blade Draw",
+            "level": "28",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "57",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Blade Draw",
+            "level": "28",
+            "cost": "2",
+            "description": "Reduces MP cost by 80.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "58",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Blade Draw",
+            "level": "28",
+            "cost": "5",
+            "description": "50% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "59",
+            "highest": "1"
+          },
+          {
+            "name": "Advantageous Blade Draw",
+            "level": "60",
+            "cost": "3",
+            "description": "Increases Edge generation by 1 per hit.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "60",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Blade Draw",
+            "level": "65",
+            "cost": "4",
+            "description": "Doubles the chance to crit when attacking monsters.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "61",
+            "highest": "1"
+          }
+        ],
+        "id": "v",
+        "name": "Blade Draw",
+        "description": "Stab and slash your target as you draw your weapon from the wound. Activates faster if you first use Traverse Cut, Vortex Slash, Charging Slash, Cross Parry, or Rising Fury."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Scythe",
+            "level": "60",
+            "cost": "5",
+            "description": "Doubles the chance to crit when attacking monsters.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "62"
+          },
+          {
+            "name": "Carving Scythe",
+            "level": "60",
+            "cost": "4",
+            "description": "Triples the chance to crit when attacking monsters.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "62",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Scythe",
+            "level": "60",
+            "cost": "4",
+            "description": "Increases Edge damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "63"
+          },
+          {
+            "name": "Empowered Scythe",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases Edge damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "63",
+            "highest": "1"
+          }
+        ],
+        "id": "w",
+        "name": "Scythe",
+        "description": "Deliver a deadly sweeping arc, attacking multiple enemies. Scythe exploits Edge generated by warrior skills to do more damage. This skill activates faster when following Rain of Blows, Poison Blade, Blade Draw, or Evasive Roll."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Reaping Slash",
+            "level": "60",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "64",
+            "highest": "1"
+          }
+        ],
+        "id": "x",
+        "name": "Reaping Slash",
+        "description": "Chop with both blades to briefly stun monsters. In PvP, the skill knocks down enemy players. Activates faster if used after Combative Strike or Rain of Blows."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Pumped Cross Parry",
+            "level": "60",
+            "cost": "4",
+            "description": "30% chance to increase Power by 15% for 10 seconds on a successful block.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "65",
+            "highest": "1"
+          }
+        ],
+        "id": "y",
+        "name": "Cross Parry",
+        "description": "Block frontal attacks with your crossed swords. Damage blocked depends on your weapon's stats. Lasts as long as the skill button is held down. Allies behind you also get reduced damage. Can only be used while in Defensive Stance."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Threatening Smoke Flanker",
+            "level": "60",
+            "cost": "6",
+            "description": "Increases aggro by 20%.",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "66",
+            "highest": "1"
+          }
+        ],
+        "id": "z",
+        "name": "Smoke Flanker",
+        "description": "Summon a shadow to your position, teleport behind your enemy, and attack it. Briefly stuns your target. Aggro transfers to your shadow upon summoning. Use after a successful Cross Parry on a target within 15m."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Binding Sword",
+            "level": "61",
+            "cost": "5",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "67"
+          },
+          {
+            "name": "Energetic Binding Sword",
+            "level": "61",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "67",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Binding Sword",
+            "level": "61",
+            "cost": "5",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "68"
+          },
+          {
+            "name": "Empowered Binding Sword",
+            "level": "61",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "68",
+            "highest": "1"
+          }
+        ],
+        "id": "AA",
+        "name": "Binding Sword",
+        "description": "Throw your sword to snare up to 4 enemies within 24m distance and draw them towards you. You may not draw bosses or elite monsters."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Slowing Infuriate",
+            "level": "65",
+            "cost": "4",
+            "description": "Decrease opponent's Movement Speed by 50% for 5 seconds.",
+            "image": "E_crestpassivespeeddown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "69",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Infuriate",
+            "level": "65",
+            "cost": "6",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "70",
+            "highest": "1"
+          }
+        ],
+        "id": "AB",
+        "name": "Infuriate",
+        "description": "Enrages all monsters within 10m and increases your aggro to the maximum amount. Only usable while in Defensive Stance."
+      }
+    ]
+  }
+}

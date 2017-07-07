@@ -1,0 +1,47 @@
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\MainWindow.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\App.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\TERA Glyph Calculator_MarkupCompile.cache
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\TERA Glyph Calculator_MarkupCompile.lref
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\TERA Glyph Calculator.exe.config
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\TERA Glyph Calculator.exe
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\TERA Glyph Calculator.pdb
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\MahApps.Metro.dll
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\System.Windows.Interactivity.dll
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\MahApps.Metro.pdb
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\MahApps.Metro.xml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\App.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\MainWindow.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\TERA Glyph Calculator.g.resources
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\TERA_Glyph_Calculator.Properties.Resources.resources
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\TERA Glyph Calculator.csproj.GenerateResource.Cache
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\TERA Glyph Calculator.exe
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\TERA Glyph Calculator.pdb
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\TERA Glyph Calculator.csprojResolveAssemblyReference.cache
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Ranged\Archer.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Berserker.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Tank\Brawler.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Ranged\Gunner.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Tank\Lancer.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Heal\Mystic.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Ninja.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Heal\Priest.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Reaper.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Slayer.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Ranged\Sorcerer.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Valkyrie.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Warrior.g.cs
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Ranged\Archer.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Berserker.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Tank\Brawler.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Ranged\Gunner.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Tank\Lancer.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Heal\Mystic.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Ninja.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Heal\Priest.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Reaper.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Slayer.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Ranged\Sorcerer.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Valkyrie.baml
+c:\users\tenshi\documents\visual studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\obj\Debug\Class Windows\Meele\Warrior.baml
+C:\Users\Tenshi\Documents\Visual Studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tenshi\Documents\Visual Studio 2017\Projects\TERA Glyph Calculator\TERA Glyph Calculator\bin\Debug\Newtonsoft.Json.xml

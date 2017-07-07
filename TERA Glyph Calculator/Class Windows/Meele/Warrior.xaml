@@ -1,0 +1,22 @@
+﻿<Controls:MetroWindow x:Class="TERA_Glyph_Calculator.Class_Windows.Warrior"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        Title="Warrior" Height="300" Width="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" Height="363" VerticalAlignment="Top" Width="200" IsReadOnly="True">
+            <DataGridTemplateColumn Header="Image" Width="SizeToCells" IsReadOnly="True">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Image Source="/images/Skill Images/mystic_skill_icons_32x32.png" />
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+        </DataGrid>
+        <DataGrid HorizontalAlignment="Left" Height="363" VerticalAlignment="Top" Width="200" Margin="200,0,0,0" />
+        <DataGrid HorizontalAlignment="Left" Height="363" VerticalAlignment="Top" Width="194" Margin="400,0,0,-92" />
+    </Grid>
+</Controls:MetroWindow>

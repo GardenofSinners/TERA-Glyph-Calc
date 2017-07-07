@@ -1,0 +1,1250 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Longshot Fireball",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases range by 3 meters.",
+            "image": "E_crestpassiverangeup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Fireball",
+        "description": "Shoot a fireball at one target within 18m.\n\nPVP: Reduced damage at max distance."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Frost Sphere",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "2",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Frost Sphere",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "3",
+            "highest": "1"
+          },
+          {
+            "name": "Slowing Frost Sphere",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases opponent's Movement Speed an additional 20%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "4",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Frost Sphere",
+            "level": "20",
+            "cost": "2",
+            "description": "Speeds casting of Mindblast by 40% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "5",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Frost Sphere",
+        "description": "Launch a damaging sphere of chilled air through a line of targets up to 18m, which has a chance to briefly slow the target's Movement Speed by 20%. Once the sphere reaches maximum range it shatters, damaging all nearby enemies."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Blazing Lightning Trap",
+            "level": "28",
+            "cost": "4",
+            "description": "Speeds casting of Flame Pillar by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "6",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Lightning Trap",
+            "level": "28",
+            "cost": "4",
+            "description": "Reduces MP cost by 100.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "7"
+          },
+          {
+            "name": "Brilliant Lightning Trap",
+            "level": "58",
+            "cost": "2",
+            "description": "Reduces MP cost by 100.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "7",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Lightning Trap",
+        "description": "Set a ring-shaped trap that briefly stuns its victims. Trap lasts 10 seconds or until triggered."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Arcane Pulse",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "8",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Arcane Pulse",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases damage of Frost Sphere by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "9",
+            "highest": "1"
+          },
+          {
+            "name": "Slick Arcane Pulse",
+            "level": "58",
+            "cost": "2",
+            "description": "Can move while charging.",
+            "image": "E_crestpassivechargemove_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "10",
+            "highest": "1"
+          },
+          {
+            "name": "Keen Arcane Pulse",
+            "level": "58",
+            "cost": "3",
+            "description": "Doubles Crit Factor for 5 seconds.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "11"
+          },
+          {
+            "name": "Keen Arcane Pulse",
+            "level": "65",
+            "cost": "3",
+            "description": "Increase Crit Factor by 2.5 times for 5 seconds.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "11",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Arcane Pulse",
+        "description": "Charge up the pulse's attack power by holding down the skill button, then release the button to hit targets in a 21m line."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Spirited Mana Infusion",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases MP replenishment by 10%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "12",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Mana Infusion",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "13",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Mana Infusion",
+        "description": "You regain X MP every 1 sec for 25 sec. Effect does not end even if combat starts."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Meteor Strike",
+            "level": "26",
+            "cost": "4",
+            "description": "Doubles the chance to crit when attacking monsters.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "14",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Meteor Strike",
+            "level": "26",
+            "cost": "3",
+            "description": "Speeds casting by 17%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "15"
+          },
+          {
+            "name": "Hastened Meteor Strike",
+            "level": "58",
+            "cost": "2",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "15",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Meteor Strike",
+            "level": "26",
+            "cost": "4",
+            "description": "Decreases cooldown by 10%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "16"
+          },
+          {
+            "name": "Energetic Meteor Strike",
+            "level": "58",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "16",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Meteor Strike",
+            "level": "26",
+            "cost": "4",
+            "description": "Reduces MP cost by 250.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "5",
+            "group": "17"
+          },
+          {
+            "name": "Brilliant Meteor Strike",
+            "level": "60",
+            "cost": "3",
+            "description": "Reduces MP cost by 400.",
+            "image": "E_crestactivempzero_Tex.png",
+            "master": "1",
+            "id": "6",
+            "group": "17",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Meteor Strike",
+        "description": "Blast targets in a flaming circle with a 4m radius centered 10m in front of you."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Fleetfooted Backstep",
+            "level": "60",
+            "cost": "4",
+            "description": "Increases Movement Speed by 20% for 2 seconds.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": "1",
+            "id": "0",
+            "group": "18",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Backstep",
+        "description": "Quickly back up out of harm's way."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Blazing Flame Pillar",
+            "level": "28",
+            "cost": "2",
+            "description": "Speeds casting of Lightning Trap by 40% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "19",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Flame Pillar",
+            "level": "25",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "20",
+            "highest": "1"
+          },
+          {
+            "name": "Shielding Flmae Pillar",
+            "level": "58",
+            "cost": "3",
+            "description": "8% chance to activate Mana Barrier I.",
+            "image": "E_crestpassivehpattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "21",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Flame Pillar",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "22"
+          },
+          {
+            "name": "Empowered Flame Pillar",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "22",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Flame Pillar",
+        "description": "Summon a column of flame in front of you that burns enemies within 3m."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Grounded Mana Barrier",
+            "level": "40",
+            "cost": "4",
+            "description": "Increases Endurance by 20% for 15 seconds.",
+            "image": "E_crestactivedefenceup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "23",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Mana Barrier",
+            "level": "40",
+            "cost": "2",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "24",
+            "highest": "1"
+          },
+          {
+            "name": "Warding Mana Barrier",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases damage absorption by 30%.",
+            "image": "E_crestpassivemaxabsorbup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "25",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Mana Barrier",
+            "level": "40",
+            "cost": "4",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "26"
+          },
+          {
+            "name": "Lingering Mana Barrier",
+            "level": "60",
+            "cost": "3",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "26",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Mana Barrier",
+        "description": "Cast a magical shield that absorbs up to X damage for 45 sec. Costs 1 MP per X damage the shield absorbs. Ends when the shield reaches maximum damage or you run out of MP."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Lightning Strike",
+            "level": "20",
+            "cost": "2",
+            "description": "Reduces MP cost by 150.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "27",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Lightning Strike",
+            "level": "26",
+            "cost": "4",
+            "description": "Doubles the chance to crit when attacking monsters.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "28",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Lightning Strike",
+            "level": "20",
+            "cost": "4",
+            "description": "30% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "29"
+          },
+          {
+            "name": "Persistent Lightning Strike",
+            "level": "65",
+            "cost": "3",
+            "description": "40% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "29",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Lightning Strike",
+        "description": "Calls down a 15m line of lightning bolts in front of you, damaging any opponents in its path."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Void Pulse",
+            "level": "36",
+            "cost": "4",
+            "description": "Doubles the chance to crit when attacking monsters.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "30"
+          },
+          {
+            "name": "Carving Void Pulse",
+            "level": "58",
+            "cost": "3",
+            "description": "Doubles the chance to crit when attacking monsters.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "30",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Void Pulse",
+            "level": "36",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "31"
+          },
+          {
+            "name": "Energetic Void Pulse",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "31",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Void Pulse",
+        "description": "Launch a powerful sphere at a single target within 21m."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Mindblast",
+            "level": "24",
+            "cost": "4",
+            "description": "Increases effect duration by 25%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "32",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Mindblast",
+            "level": "24",
+            "cost": "2",
+            "description": "Speeds casting by 30%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "33",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Mindblast",
+            "level": "24",
+            "cost": "3",
+            "description": "25% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "34",
+            "highest": "1"
+          },
+          {
+            "name": "Shared Mindblast",
+            "level": "24",
+            "cost": "5",
+            "description": "Increases chance of debuff by 30% when hitting multiple targets.",
+            "image": "E_crestpassivethorns_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "35"
+          },
+          {
+            "name": "Shared Mindblast",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases chance of debuff by 30% when hitting multiple targets.",
+            "image": "E_crestpassivethorns_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "35",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Mindblast",
+        "description": "Briefly put targets to sleep in a 4m radius centered 10m in front of you."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Retailiate",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "36",
+            "highest": "1"
+          },
+          {
+            "name": "Shielding Retaliate",
+            "level": "52",
+            "cost": "5",
+            "description": "50% chance to activate Mana Barrier II.",
+            "image": "E_crestactiveinvokeskill_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "37",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target. You can use this skill only when knocked down. You become briefly immune to knockdown, stagger, and stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Painblast",
+            "level": "20",
+            "cost": "6",
+            "description": "Increases effect duration by 40%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "38",
+            "highest": "1"
+          },
+          {
+            "name": "Blossoming Painblast",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases periodic damage by 20%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "39",
+            "highest": "1"
+          },
+          {
+            "name": "Slowing Painblast",
+            "level": "20",
+            "cost": "4",
+            "description": "100% chance to decrease opponent's Movement Speed by 50% for 7 seconds.",
+            "image": "E_crestactivespeeddown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "40",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Painblast",
+            "level": "58",
+            "cost": "3",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "41",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Painblast",
+            "level": "60",
+            "cost": "3",
+            "description": "Increases damage of Flaming Barrage by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "42",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "Painblast",
+        "description": "Up to 5 targets within a 4m radius centered 10m in front of you take X damage every 2 sec for 10 sec. Does less damage to other players."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Painful Trap",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 75.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "43",
+            "highest": "1"
+          },
+          {
+            "name": "Influential Painful Trap",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost of Flame Pillar by 80 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "44",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Painful Trap",
+        "description": "Set a trap that explodes when stepped on. Trap lasts 10 seconds."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Glacial Retreat",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases effect duration by 40%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "45",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Glacial Retreat",
+            "level": "20",
+            "cost": "4",
+            "description": "Speeds casting of Arcane Pulse by 30% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "46"
+          },
+          {
+            "name": "Blazing Glacial Retreat",
+            "level": "65",
+            "cost": "3",
+            "description": "Speeds casting of Arcane Pulse by 30% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "46",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Glacial Retreat",
+            "level": "28",
+            "cost": "4",
+            "description": "Speeds casting of Lightning Trap by 40% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "47"
+          },
+          {
+            "name": "Blazing Glacial Retreat",
+            "level": "65",
+            "cost": "3",
+            "description": "Speeds casting of Lightning Trap by 40% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "47",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Glacial Retreat",
+        "description": "Freeze the ground before you as you leap backwards, briefly decreasing the movement speed of your target by 70%."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Spirited Mana Siphon",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases MP replenishment by 10%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "48",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Mana Siphon",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "49",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Mana Siphon",
+            "level": "20",
+            "cost": "2",
+            "description": "Speeds casting of Flaming Barrage by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "50",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Mana Siphon",
+        "description": "Charge up your attack by holding down the skill button, then release it to take MP from targets within 18m. While charging up, you can move at full speed."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Flaming Barrage",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 150.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "51",
+            "highest": "1"
+          },
+          {
+            "name": "Multiplicative Flaming Barrage",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases number of lock-on targets by 1.",
+            "image": "E_crestpassivelockontargetup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "52",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Flaming Barrage",
+            "level": "20",
+            "cost": "4",
+            "description": "Speeds casting by 30%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "53"
+          },
+          {
+            "name": "Hastened Flaming Barrage",
+            "level": "65",
+            "cost": "3",
+            "description": "Speeds casting by 40%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "53",
+            "highest": "1"
+          }
+        ],
+        "id": "r",
+        "name": "Flaming Barrage",
+        "description": "Press the skill button once and mouseover to lock on to 4 targets within 18m, then press the skill button again or left-click to shoot at all targets."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Nerve Exhaustion",
+            "level": "56",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "54"
+          },
+          {
+            "name": "Energetic Nerve Exhaustion",
+            "level": "58",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "54",
+            "highest": "1"
+          }
+        ],
+        "id": "s",
+        "name": "Nerve Exhaustion",
+        "description": "Weaken up to 4 targets within 15m and prevent them from using any skills for 5 seconds. Effective only on other players. Click the skill button once and mouse over to lock on targets, then click the skill button again or left-click to shoot at all targets. Using this skill on a target cursed with Time Gyre will remove the Time Gyre effect from the target."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Burning Breath",
+            "level": "44",
+            "cost": "4",
+            "description": "Increases skill damage of Flaming Barrage by 35% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "55",
+            "highest": "1"
+          },
+          {
+            "name": "Hindering Burning Breath",
+            "level": "58",
+            "cost": "2",
+            "description": "PvP: Decreases the effect of healing skills on foes by 30% for 10 seconds.",
+            "image": "E_crestpassivetargethealdown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "56",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Burning Breath",
+            "level": "44",
+            "cost": "5",
+            "description": "Increases effect duration by 20%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "57"
+          },
+          {
+            "name": "Lingering Burning Breath",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases effect duration by 20%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "57",
+            "highest": "1"
+          }
+        ],
+        "id": "t",
+        "name": "Burning Breath",
+        "description": "Shoot a fiery blaze that inflicts X damage every 2 sec for 10 sec for up to 1 target within 15m. Deals less damage to other players. Press the skill button once and mouse over to lock on targets, then press the skill button again or left-click to shoot at all targets."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Mana Volley",
+            "level": "58",
+            "cost": "5",
+            "description": "Increases effect duration by 40%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "58",
+            "highest": "1"
+          }
+        ],
+        "id": "u",
+        "name": "Mana Volley",
+        "description": "Up to 4 targets within 15m lose 25% of their total MP immediately and X further MP every 2 seconds for 10 seconds. This affects only other players. However, hitting any target restores 25% of your total MP. Press the skill button once and mouseover to lock on targets, then press the skill button again to shoot at all targets."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Time Gyre",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "59",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Time Gyre",
+            "level": "26",
+            "cost": "2",
+            "description": "Speeds casting of Meteor Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "60",
+            "highest": "1"
+          },
+          {
+            "name": "Multiplicative Time Gyre",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases number of lock-on targets by 2.",
+            "image": "E_crestpassivelockontargetup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "61"
+          },
+          {
+            "name": "Multiplicative Time Gyre",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases number of lock-on targets by 2.",
+            "image": "E_crestpassivelockontargetup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "61"
+          },
+          {
+            "name": "Multiplicative Time Gyre",
+            "level": "65",
+            "cost": "2",
+            "description": "Increases number of lock-on targets by 2.",
+            "image": "E_crestpassivelockontargetup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "61",
+            "highest": "1"
+          }
+        ],
+        "id": "v",
+        "name": "Time Gyre",
+        "description": "Briefly immobilize up to 3 targets within 18m. Prevents other players from using evasion and movement skills. Effect ends after the target takes damage or is knocked down. Press the skill button once and mouse over to lock on targets, then press the skill button again or left-click to shoot at all targets. Using this skill on a target cursed with Nerve Exhaustion will remove the Nerve Exhaustion effect from the target"
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Teleport Jaunt",
+            "level": "22",
+            "cost": "3",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "62",
+            "highest": "1"
+          }
+        ],
+        "id": "w",
+        "name": "Teleport Jaunt",
+        "description": "Teleport a short distance in the direction the camera faces."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Hailstorm",
+            "level": "52",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "63",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Hail Storm",
+            "level": "52",
+            "cost": "2",
+            "description": "Reduces MP cost by 300.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "64",
+            "highest": "1"
+          }
+        ],
+        "id": "x",
+        "name": "Hail Storm",
+        "description": "Summon an icy storm 12m in front of you for 8 seconds damaging all targets in 6m radius. Slows targets by 10% per hit. Effect stacks up to four times."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Stone Skin",
+            "level": "60",
+            "cost": "5",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "65"
+          },
+          {
+            "name": "Energetic Stone Skin",
+            "level": "60",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "65"
+          },
+          {
+            "name": "Energetic Stone Skin",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "2",
+            "group": "65",
+            "highest": "1"
+          }
+        ],
+        "id": "y",
+        "name": "Stone Skin",
+        "description": "Encases your body in stone for 5 seconds, protecting you from all attacks and dropping all aggro."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Grounded Nova",
+            "level": "61",
+            "cost": "4",
+            "description": "Increases Endurance by 20% for 15 seconds.",
+            "image": "E_crestactivedefenceup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "66",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Nova",
+            "level": "61",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "67",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Nova",
+            "level": "61",
+            "cost": "2",
+            "description": "Speed casting by 30%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "68",
+            "highest": "1"
+          },
+          {
+            "name": "Keen Nova",
+            "level": "61",
+            "cost": "4",
+            "description": "Doubles Crit Factor for 4 seconds.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "69"
+          },
+          {
+            "name": "Keen Nova",
+            "level": "65",
+            "cost": "3",
+            "description": "Increase Crit Factor by 2.5 for 4 seconds.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": null,
+            "id": "4",
+            "group": "69",
+            "highest": "1"
+          }
+        ],
+        "id": "z",
+        "name": "Nova",
+        "description": "Unleash a massive explosion 7m in front of you, which deals huge damage to enemies within 6m radius and with a chance of knockdown. You take only half damage while using this skill, and have a high resistance to knockdown and stagger."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Warp Barrier",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "70"
+          },
+          {
+            "name": "Energetic Warp Barrier",
+            "level": "65",
+            "cost": "2",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "70",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Warp Barrier",
+            "level": "65",
+            "cost": "2",
+            "description": "Increases duration by 100%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "71",
+            "highest": "1"
+          }
+        ],
+        "id": "AA",
+        "name": "Warp Barrier",
+        "description": "Cancel all damage for 1 sec and recover 5% of maximum MP per hit."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Mana Boost",
+            "level": "32",
+            "cost": "2",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "72",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Mana Boost",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases duration by 30%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "73"
+          },
+          {
+            "name": "Lingering Mana Boost",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases duration by 40%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "73"
+          },
+          {
+            "name": "Lingering Mana Boost",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases duration by 40%.",
+            "image": "E_crestpassiveskilleffectup_Tex.png",
+            "rare": "1",
+            "master": null,
+            "id": "3",
+            "group": "73",
+            "highest": "1"
+          }
+        ],
+        "id": "AB",
+        "name": "Mana Boost",
+        "description": "Increase Attack Speed by 30% for 15 seconds and skill damage by 20% when attacking monsters. Also enhances [Arcane Pulse] and [Meteor Strike] while active."
+      }
+    ]
+  }
+}

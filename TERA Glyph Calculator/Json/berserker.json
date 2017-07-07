@@ -1,0 +1,1239 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Keen Combo Attack",
+            "level": "20",
+            "cost": "6",
+            "description": "Increases Crit Factor by 10%.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Combo Attack",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases MP replenishment by 15%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "2",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Combo Attack",
+        "description": "Strike one or more targets in front of you, and gain MP with each hit. Successive strikes do more damage, up to four hits, with the fourth hit dealing substantially more."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Pumped Axe Block",
+            "level": "20",
+            "cost": "4",
+            "description": "30% chance to increase Power by 20% for 5 seconds on a successful block.",
+            "image": "E_crestactiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "3",
+            "highest": "1"
+          },
+          {
+            "name": "Mindsparked Axe Block",
+            "level": "20",
+            "cost": "3",
+            "description": "Restores 3% of MP on a successful block.",
+            "image": "E_crestpassivempheal_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "4"
+          },
+          {
+            "name": "Mindsparked Axe Block",
+            "level": "60",
+            "cost": "2",
+            "description": "Restores 3% of MP on a successful block.",
+            "image": "E_crestpassivempheal_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "4",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlink Axe Block",
+            "level": "65",
+            "cost": "2",
+            "description": "Increases skill damage of Axe Counter by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "5",
+            "highest": "1"
+          },
+          {
+            "name": "Influential Axe Block",
+            "level": "65",
+            "cost": "2",
+            "description": "Reduces MP cost of Axe Counter by 115 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "6",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Axe Block",
+        "description": "Block frontal attacks with your weapon. Damage blocked depends on your weapon's stats. Remains active as long as you hold down the skill button.\n[Intimidation] When Intimidation is active, the amount of damage blocked increases by 60%, and allies behind you are also protected. MP cost for skill is reduced to 0."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Thunder Strike",
+            "level": "20",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "7"
+          },
+          {
+            "name": "Carving Thunder Strike",
+            "level": "58",
+            "cost": "3",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "7",
+            "highest": "1"
+          },
+          {
+            "name": "Sanative Thunder Strike",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases HP consumption by 50% when overcharged.",
+            "image": "E_crestpassivehpdown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "8"
+          },
+          {
+            "name": "Sanative Thunder Strike",
+            "level": "58",
+            "cost": "2",
+            "description": "Decreases HP consumption by 50%.",
+            "image": "E_crestpassivehpdown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "8",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Thunder Strike",
+            "level": "60",
+            "cost": "3",
+            "description": "Speeds charging by 25%.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "9",
+            "highest": "1"
+          },
+          {
+            "name": "Slick Thunder Strike",
+            "level": "26",
+            "cost": "4",
+            "description": "Eliminates slowed movement restriction.",
+            "image": "E_crestpassivepenaltydelete_Tex.png",
+            "master": null,
+            "id": "5",
+            "group": "10"
+          },
+          {
+            "name": "Slick Thunder Strike",
+            "level": "58",
+            "cost": "3",
+            "description": "Eliminates slowed movement restriction.",
+            "image": "E_crestpassivepenaltydelete_Tex.png",
+            "master": "1",
+            "id": "6",
+            "group": "10"
+          },
+          {
+            "name": "Slick Thunder Strike",
+            "level": "65",
+            "cost": "2",
+            "description": "Eliminates slowed movement restriction.",
+            "image": "E_crestpassivepenaltydelete_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "7",
+            "group": "10",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Thunder Strike",
+        "description": "Charge up your axe attack by holding down the skill button, then release it to attack. Charges to three levels. Overcharging beyond the third-level charge will damage you. While charging up, you can move at half speed."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Hastened Flatten",
+            "level": "20",
+            "cost": "4",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "11"
+          },
+          {
+            "name": "Hastened Flatten",
+            "level": "58",
+            "cost": "3",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "11",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Flatten",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "12"
+          },
+          {
+            "name": "Empowered Flatten",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "12"
+          },
+          {
+            "name": "Empowered Flatten",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "12",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Flatten",
+        "description": "Pound the ground, knocking down targets within 4m. This skill activates faster when following Staggering Strike, Raze, and Punishing Strike.\n[Intimidation] Gain additional aggro when using this skill."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energy Dash",
+            "level": "32",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "13",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Dash",
+            "level": "58",
+            "cost": "4",
+            "description": "35% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "14",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Dash",
+        "description": "Increase your speed by X% for X seconds."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Influential Staggering Strike",
+            "level": "40",
+            "cost": "3",
+            "description": "Reduces MP cost of Flatten by 63 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "15",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Staggering Strike",
+            "level": "40",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "16",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Staggering Strike",
+            "level": "40",
+            "cost": "4",
+            "description": "Speeds charging of Thunder Strike by 30% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "17",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Staggering Strike",
+            "level": "60",
+            "cost": "4",
+            "description": "35% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "18",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Staggering Strike",
+        "description": "Make a sweeping attack that briefly stuns and turns your target around.\n[Intimidation] Increased stun duration. Does not spin targets."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Mocking Shout",
+            "level": "40",
+            "cost": "2",
+            "description": "Increases skill damage of Staggering Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "19",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Mocking Shout",
+            "level": "26",
+            "cost": "3",
+            "description": "Speeds charging of Cyclone by 30% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "20"
+          },
+          {
+            "name": "Blazing Mocking Shout",
+            "level": "58",
+            "cost": "2",
+            "description": "Speeds charging of Cyclone by 30% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "20",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Mocking Shout",
+        "description": "Your warlike shout has a chance of staggering enemies within 7m. You become immune to knockdown and stagger for X sec, while greatly increasing your resistance to weakening effects."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Fleetfooted Fiery Rage",
+            "level": "22",
+            "cost": "5",
+            "description": "Increases Combat Movement Speed by 20 for 15 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "21",
+            "highest": "1"
+          },
+          {
+            "name": "Threatening Fiery Rage",
+            "level": "65",
+            "cost": "6",
+            "description": "Increases aggro by 20%.",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "22",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Fiery Rage",
+            "level": "65",
+            "cost": "6",
+            "description": "Reduces MP cost by 60.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "23",
+            "highest": "1"
+          },
+          {
+            "name": "Pumped Fiery Rage",
+            "level": "22",
+            "cost": "5",
+            "description": "30% chance to increase Power by additional 10% for 20 seconds.",
+            "image": "E_crestactiveattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "24"
+          },
+          {
+            "name": "Pumped Fiery Rage",
+            "level": "65",
+            "cost": "4",
+            "description": "40% chance to increase Power by additional 10% for 20 seconds.",
+            "image": "E_crestactiveattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "24",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Fiery Rage",
+            "level": "56",
+            "cost": "4",
+            "description": "Increases duration of Flurry of Blows effect by 30%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "5",
+            "group": "25"
+          },
+          {
+            "name": "Lingering Fiery Rage",
+            "level": "56",
+            "cost": "3",
+            "description": "Increases duration of Flurry of Blows effect by 35%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": "1",
+            "id": "6",
+            "group": "25",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Fiery Rage",
+        "description": "Increases your Power by X% and Crit Factor by X%, but decreases your Endurance by X% for X sec. Grants Flurry of Blows II (increases Attack Speed and charging speed by X% for X sec.)\n[Intimidation] When Intimidation is active, the effect is as follows: Draws aggro from monsters within 10m. Activates Flurry of Blows II. Cooldown reduced by 10 seconds. MP cost increased to 300."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Cyclone",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases additional over-charge damage by 24%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "26",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Cyclone",
+            "level": "20",
+            "cost": "4",
+            "description": "Speeds charging by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "27"
+          },
+          {
+            "name": "Hastened Cyclone",
+            "level": "58",
+            "cost": "3",
+            "description": "Speeds charging by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "27"
+          },
+          {
+            "name": "Hastened Cyclone",
+            "level": "65",
+            "cost": "2",
+            "description": "Speeds charging by 30%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "27",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Cyclone",
+            "level": "20",
+            "cost": "6",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "28"
+          },
+          {
+            "name": "Carving Cyclone",
+            "level": "60",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "28"
+          },
+          {
+            "name": "Carving Cyclone",
+            "level": "65",
+            "cost": "4",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "6",
+            "group": "28",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Cyclone",
+        "description": "Charge up your attack by holding down the skill button, then release it to spin your axe in a circle. Charges to three levels. Overcharging beyond the third-level charge will damage you. While charging up, you can move at half speed."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Leaping Strike",
+            "level": "24",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "29",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Leaping Strike",
+            "level": "24",
+            "cost": "4",
+            "description": "30% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "30",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Leaping Strike",
+            "level": "36",
+            "cost": "3",
+            "description": "Speeds casting of Lethal Strike by 30% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "31",
+            "highest": "1"
+          },
+          {
+            "name": "Keen Leaping Strike",
+            "level": "58",
+            "cost": "3",
+            "description": "Doubles Crit Factor.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "32",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Leaping Strike",
+        "description": "Jump at your foe and smash downward. Knocked-down foes take 5x damage once you learn Merciless Leap."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Sanative Unchained Anger",
+            "level": "30",
+            "cost": "4",
+            "description": "Decreases HP consumption by 50%.",
+            "image": "E_crestpassivehpdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "33",
+            "highest": "1"
+          },
+          {
+            "name": "Strengthened Unchained Anger",
+            "level": "30",
+            "cost": "5",
+            "description": "Increases knockdown by 10% for 20 seconds.",
+            "image": "E_crestpassivereactionup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "34",
+            "highest": "1"
+          },
+          {
+            "name": "Raging Unchained Anger",
+            "level": "56",
+            "cost": "5",
+            "description": "25% chance to activate Flurry of Blows I.",
+            "image": "E_crestactiveinvokeskill_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "35",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Unchained Anger",
+            "level": "65",
+            "cost": "6",
+            "description": "Decreases cooldown by 25%",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "36",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Unchained Anger",
+        "description": "Sacrifice HP to gain X MP.\n[Intimidation] Sacrifice X MP to gain X HP. Cooldown increased to 60 seconds."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Retaliate",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "37",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Retaliate",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "38",
+            "highest": "1"
+          },
+          {
+            "name": "Furious Retaliate",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases your damage as your HP decreases (up to 4 times).",
+            "image": "E_crestpassivehpattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "39",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target. You can use this skill only when knocked down. You become briefly immune to knockdown, stagger, and stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Vampiric Blow",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "40",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Vampiric Blow",
+            "level": "46",
+            "cost": "3",
+            "description": "Increases damage of Lethal Strike by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "41",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "Vampiric Blow",
+        "description": "Charge up your axe attack by holding down the skill button, then release it to attack. A portion of the damage returns to you as healing. Only charges to two levels. While charging up, you can move at half speed. Activates faster but with less healing if you first overcharge Thunder Strike, Cyclone, or Lethal Strike."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Fearsome Shout",
+            "level": "46",
+            "cost": "3",
+            "description": "Increases skill damage of Staggering Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "42",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "Fearsome Shout",
+        "description": "Monsters within 5m briefly run away from you. Fear effect ends if target is kicked down. In PvP, Fear effect ends if target is attacked."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Slick Lethal Strike",
+            "level": "48",
+            "cost": "2",
+            "description": "Eliminates slowed movement restriction.",
+            "image": "E_crestpassivepenaltydelete_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "43",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Lethal Strike",
+            "level": "36",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "44"
+          },
+          {
+            "name": "Empowered Lethal Strike",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "44",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Lethal Strike",
+        "description": "Charge up your attack by holding down the skill button, then release it to attack. Costs HP to use, not MP. Only charges to two levels. While charging up, you can move at half speed."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Tenacity",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "45",
+            "highest": "1"
+          },
+          {
+            "name": "Influential Tenacity",
+            "level": "65",
+            "cost": "3",
+            "description": "Reduces MP cost of Dash by 75 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "46",
+            "highest": "1"
+          },
+          {
+            "name": "Balancing Tenacity",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases balance by 50% for 15 seconds.",
+            "image": "E_crestactivereactionresist_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "47"
+          },
+          {
+            "name": "Balancing Tenacity",
+            "level": "58",
+            "cost": "5",
+            "description": "Doubles balance for 15 seconds.",
+            "image": "E_crestactivereactionresist_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "47",
+            "highest": "1"
+          },
+          {
+            "name": "Grounded Tenacity",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases Endurance by 16 for 12 seconds.",
+            "image": "E_crestactivedefenceup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "48"
+          },
+          {
+            "name": "Spirited Tenacity",
+            "level": "65",
+            "cost": "3",
+            "description": "30% chance to replenish 6% of your total MP every second.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "5",
+            "group": "48",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Tenacity",
+            "level": "58",
+            "cost": "3",
+            "description": "50% chance to replenish 6% of your total MP every second.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": "1",
+            "id": "6",
+            "group": "49",
+            "highest": "1"
+          },
+          {
+            "name": "Restorative Tenacity",
+            "level": "58",
+            "cost": "4",
+            "description": "Recovers 12.0% of your total HP.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": "1",
+            "id": "7",
+            "group": "50",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Tenacity",
+        "description": "Call on inner reserves to instantly replenish X MP. Briefly increases resistance to stun immensely."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Inescapable Doom",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "51",
+            "highest": "1"
+          },
+          {
+            "name": "Influential Inescapable Doom",
+            "level": "58",
+            "cost": "3",
+            "description": "Reduces MP cost of Flatten by 63 for a few seconds.",
+            "image": "E_crestnextskillmpdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "52",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Inescapable Doom",
+            "level": "58",
+            "cost": "5",
+            "description": "Increases effect duration by 30%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "53",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Inescapable Doom",
+            "level": "58",
+            "cost": "4",
+            "description": "Speeds casting of Flatten by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "54"
+          },
+          {
+            "name": "Blazing Inescapable Doom",
+            "level": "58",
+            "cost": "2",
+            "description": "Speeds casting of Flatten by 30% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "54",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Inescapable Doom",
+        "description": "Briefly slows movement of targets within 5m radius by X%. Prevents other players from using evasive and movement skills."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Bloodlust",
+            "level": "52",
+            "cost": "4",
+            "description": "Reduces MP cost by 150.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "55",
+            "highest": "1"
+          }
+        ],
+        "id": "r",
+        "name": "Bloodlust",
+        "description": "Your Power increases by X. Your Balance Factor and Impact Factor increase by X%. Damage to monsters increases by X%. Lasts X sec."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Evasive Smash",
+            "level": "60",
+            "cost": "4",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "0",
+            "group": "56",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Evasive Smash",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "57",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Evasive Smash",
+            "level": "60",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "58"
+          },
+          {
+            "name": "Empowered Evasive Smash",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "58",
+            "highest": "1"
+          }
+        ],
+        "id": "s",
+        "name": "Evasive Smash",
+        "description": "Interrupt a charging skill with a rolling dodge and then follow up with a rib-rattling uppercut attack. The dodge requires one press of the skill button. The smash requires another press of the skill button immediately after. The smash's damage varies based on the level of the charging skill interrupted. Shares a cooldown with Evasive Roll."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Spirited Raze",
+            "level": "61",
+            "cost": "3",
+            "description": "Increases MP replenishment by 20%.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "59",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Raze",
+            "level": "61",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "60",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Raze",
+            "level": "61",
+            "cost": "4",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "61",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Raze",
+            "level": "61",
+            "cost": "4",
+            "description": "Speeds casting of Thunder Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "62"
+          },
+          {
+            "name": "Blazing Raze",
+            "level": "65",
+            "cost": "3",
+            "description": "Speeds casting of Thunder Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "62",
+            "highest": "1"
+          }
+        ],
+        "id": "t",
+        "name": "Raze",
+        "description": "Knocks down monsters around you while moving forward. Enemy players are staggered. This skill chains off of Combo Attack. Activates faster following Overwhelm.\n[Intimidation] Increased aggro gain. Activates faster following Axe Counter or Punishing Strike."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Tackle",
+            "level": "63",
+            "cost": "4",
+            "description": "Reduces MP cost by 150.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "63",
+            "highest": "1"
+          },
+          {
+            "name": "Fleetfooted Tackle",
+            "level": "63",
+            "cost": "5",
+            "description": "Increases Combat Movement Speed by 20 for 15 seconds.",
+            "image": "E_crestpassivechargemove_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "64",
+            "highest": "1"
+          },
+          {
+            "name": "Keen Tackle",
+            "level": "63",
+            "cost": "4",
+            "description": "Doubles Crit Factor.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "65",
+            "highest": "1"
+          }
+        ],
+        "id": "u",
+        "name": "Tackle",
+        "description": "Spin your axe to hurl a bolt that knocks down an enemy up to 18m away."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Unbreakable",
+            "level": "65",
+            "cost": "5",
+            "description": "Increases effect duration by 20%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "66",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Unbreakable",
+            "level": "65",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "67"
+          },
+          {
+            "name": "Energetic Unbreakable",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "67"
+          },
+          {
+            "name": "Energetic Unbreakable",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 50%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "67",
+            "highest": "1"
+          }
+        ],
+        "id": "v",
+        "name": "Unbreakable",
+        "description": "Fueled by rage, your HP won't go below 1 for 8 sec. You can still die if you receive a single blow that exceeds your max HP."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Threatening Axe Counter",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases aggro by 100%",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "68",
+            "highest": "1"
+          }
+        ],
+        "id": "w",
+        "name": "Axe Counter",
+        "description": "[Intimidation] Deliver a crushing counterattack after a successful Axe Block. Increases resistance to knockdown and stagger, and any damage taken while attacking is reduced by 50%. Can only be used while Intimidation is active."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Overwhelm",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "69",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Overwhelm",
+            "level": "65",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "70"
+          },
+          {
+            "name": "Energetic Overwhelm",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "70",
+            "highest": "1"
+          },
+          {
+            "name": "Fleetfooted Overwhelm",
+            "level": "65",
+            "cost": "5",
+            "description": "Increases Combat Movement Speed by 10 for 7 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "71"
+          },
+          {
+            "name": "Fleetfooted Overwhelm",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases Combat Movement Speed by 10 for 7 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "71",
+            "highest": "1"
+          }
+        ],
+        "id": "x",
+        "name": "Overwhelm",
+        "description": "Charge up to 18m and attack your enemy. Attack has a high chance of knockdown against monsters."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Punishing Strike",
+            "level": "65",
+            "cost": "4",
+            "description": "Reduces MP cost by 25.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "72",
+            "highest": "1"
+          },
+          {
+            "name": "Threatening Punishing Strike",
+            "level": "65",
+            "cost": "3",
+            "description": "Increase aggro by 100%",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "73",
+            "highest": "1"
+          }
+        ],
+        "id": "y",
+        "name": "Punishing Strike",
+        "description": "[Intimidation] Perform a quick strike that generates high aggro. Press the skill button again to dash forward and attack a second time, decreasing the target's Endurance. Can only be used while Intimidation is active."
+      }
+    ]
+  }
+}

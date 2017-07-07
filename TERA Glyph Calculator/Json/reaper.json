@@ -1,0 +1,753 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Empowered Spiral Barrage",
+            "level": "58",
+            "cost": "7",
+            "description": "15% chance to inflict double damage.",
+            "image": "E_crestactivekill_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Spiral Barrage",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases MP replenishment by 20%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "2",
+            "highest": "1"
+          },
+          {
+            "name": "Swift Spiral Barrage",
+            "level": "58",
+            "cost": "4",
+            "description": "10% chance to increase Attack Speed by 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "3",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Spiral Barrage",
+            "level": "60",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "4",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Spiral Barrage",
+        "description": "Strike one or more targets at long range, and gain MP with each hit. Successive strikes do more damage, up to four hits, with the fourth hit dealing substantially more."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Restorative Double Shear",
+            "level": "58",
+            "cost": "4",
+            "description": "Recovers 1.5% of total HP on each hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "5",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Double Shear",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage of Grim Strike by 30% for a 5 seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "6"
+          },
+          {
+            "name": "Powerlinked Double Shear",
+            "level": "60",
+            "cost": "2",
+            "description": "Increases skill damage of Grim Strike by 30% for a 5 seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "6",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Double Shear",
+        "description": "Fling your scythes to strike a ranged target. The scythes strike the target again as they return to you. Damage is increased by 10% when used in a chain with Spiral Barrage (after 3rd, 4th, or 5th hit), Grim Strike, Pendulum Strike, Whipsaw, Death Spiral, Smite, or Shadow Lash."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Sundering Strike",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 15%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "7"
+          },
+          {
+            "name": "Empowered Sundering Strike",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 15%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "7",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Sundering Strike",
+            "level": "60",
+            "cost": "4",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "8"
+          },
+          {
+            "name": "Carving Sundering Strike",
+            "level": "65",
+            "cost": "3",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "8",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Sundering Strike",
+        "description": "Gather shadows into your scythes to deal a fatal blow to a target in front of you. Sundering Strike inflicts more damage to enemies with lower HP. Shadows at the epicenter of the attack explode after 3 seconds to deal additional damage. Sundering Strike activates faster when chained with Double Shear or Grim Strike."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Persistent Grim Strike",
+            "level": "58",
+            "cost": "4",
+            "description": "30% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "9",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Grim Strike",
+            "level": "60",
+            "cost": "2",
+            "description": "Speeds casting of Double Shear by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "10",
+            "highest": "1"
+          },
+          {
+            "name": "Keen Grim Strike",
+            "level": "63",
+            "cost": "4",
+            "description": "Doubles Crit Factor.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "11"
+          },
+          {
+            "name": "Keen Grim Strike",
+            "level": "65",
+            "cost": "4",
+            "description": "Triples Crit Factor.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "11",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Grim Strike",
+        "description": "Fling your scythes to strike a target in front of you. Grim Strike activates faster when chained with Spiral Barrage (after 3rd, 4th, or 5th hit), Double Shear, Pendulum Strike, Whipsaw, Death Spiral, Smite, or Shadow Lash."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Death Spiral",
+            "level": "60",
+            "cost": "4",
+            "description": "Increases skill power by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "12",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Death Spiral",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "13",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Death Spiral",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage of Double Shear by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "14",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Death Spiral",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage of Grim Strike by 30% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "15"
+          },
+          {
+            "name": "Powerlinked Death Spiral",
+            "level": "63",
+            "cost": "2",
+            "description": "Increases skill damage of Grim Strike by 30% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "15"
+          },
+          {
+            "name": "Powerlinked Death Spiral",
+            "level": "65",
+            "cost": "2",
+            "description": "Increases skill damage of Grim Strike by 35% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "5",
+            "group": "15",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Death Spiral",
+        "description": "Spin your scythes in a 720 degree arc, dealing damage to all enemies around you, and reducing the movement speed of all monsters hit for 5 seconds. You can use Death Spiral in a chain to interrupt your own skill actions. You can Spiral twice within 6 seconds, but a cooldown time triggers after the second Spiral or 6 seconds after the first."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Numbing Whipsaw",
+            "level": "58",
+            "cost": "5",
+            "description": "20% chance to decrease opponent's Attack Speed by 10% for 7 seconds for each hit. (Slowing effects stack up to 5 times.)",
+            "image": "E_crestactiveattackspeeddown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "16",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Whipsaw",
+            "level": "60",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "17"
+          },
+          {
+            "name": "Energetic Whipsaw",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "17",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Whipsaw",
+            "level": "58",
+            "cost": "5",
+            "description": "Increases skill power by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "18"
+          },
+          {
+            "name": "Empowered Whipsaw",
+            "level": "63",
+            "cost": "4",
+            "description": "Increases skill power by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "18"
+          },
+          {
+            "name": "Empowered Whipsaw",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill power by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "5",
+            "group": "18",
+            "highest": "1"
+          },
+          {
+            "name": "Pumped Whipsaw",
+            "level": "65",
+            "cost": "3",
+            "description": "Uses 1.5% of your total HP to increase damage by 30%",
+            "image": "E_crestactiveattackup_Tex.png",
+            "master": null,
+            "id": "6",
+            "group": "19",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Whipsaw",
+        "description": "Fling your scythes at enemies within range to inflict multiple hits, recovering some of your own HP. In PVP, healing is reduced on any players hit by the spinning scythes by 10% per hit (stacks up to 5). You can use Whipsaw to interrupt your own skill actions when used in a chain with Spiral Barrage, Double Shear, or Pendulum Strike."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Smite",
+            "level": "58",
+            "cost": "5",
+            "description": "Increases effect duration by 25%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "20",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Smite",
+            "level": "58",
+            "cost": "5",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "21"
+          },
+          {
+            "name": "Energetic Smite",
+            "level": "60",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "21",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Smite",
+        "description": "Jump into the air and strike enemies in the head with your scythes, stunning them for 2.5 seconds."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Pendulum Strike",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill power by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "22",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Pendulum Strike",
+            "level": "58",
+            "cost": "2",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "23"
+          },
+          {
+            "name": "Energetic Pendulum Strike",
+            "level": "65",
+            "cost": "2",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "23",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Pendulum Strike",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases the chance to crit of Whipsaw by 30% for a few seconds. ",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "24"
+          },
+          {
+            "name": "Powerlinked Pendulum Strike",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases the chance to crit of Whipsaw by 30% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "24",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Pendulum Strike",
+        "description": "Swing your scythes upward in an arc to damage enemies in front of you as you jump backward. Monsters hit by Pendulum Strike are immobilized for 3 seconds. You can use Pendulum Strike in a chain to interrupt your own skill actions."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Shadow Lash",
+            "level": "59",
+            "cost": "5",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "25",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Shadow Lash",
+            "level": "60",
+            "cost": "3",
+            "description": "Increases MP replenishment by 20%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "26",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Shadow Lash",
+        "description": "Create a whip of shadows and fling it at targets in front of you. Shadow Lash can be chained together up to 4 times and replenishes MP on every hit. A cooldown time begins after the chain ends."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Shadow Burst",
+            "level": "58",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "27",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Shadow Burst",
+            "level": "58",
+            "cost": "2",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "28",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Shadow Burst",
+            "level": "61",
+            "cost": "2",
+            "description": "Reduces MP cost by 150.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "29",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Shadow Burst",
+        "description": "Gather shadows into your scythes and strike the ground, damaging nearby targets. Press the skill button again to inflict additional damage with a high chance of pulling enemies toward you and to the ground. You cannot be staggered or knocked down while using Shadow Burst."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant",
+            "level": "60",
+            "cost": "3",
+            "description": "Reduce MP cost of casting and switching positions by 150.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "30",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic",
+            "level": "60",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "31",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Soul Reversal",
+        "description": "Throw a shadowy cable at a single target within 20 meters. A successful hit entangles the target, and deals damage over time. Press skill button again to switch places with the target (within 40m) and stun them. If the entangled target is a boss or elite monster, you teleport behind the target instead of switching places."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Retaliate",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "32",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Retaliate",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "33",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target. You can use this skill only when knocked down. You become briefly immune to knockdown, stagger, and stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Retribution",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "34",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "Retribution",
+        "description": "Prepare to counter an incoming attack. If you activate Retribution right before an attack lands, you ignore all damage and immediately charge toward the enemy. While preparing, you also ignore all damage and become immune to all effects. Attack speed does not affect the Retribution skill."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Shadow Reaping",
+            "level": "60",
+            "cost": "2",
+            "description": "Reduces MP cost by 150.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "35",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Shadow Reaping",
+            "level": "60",
+            "cost": "3",
+            "description": "Increases effect duration by 30%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "36",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "Shadow Reaping",
+        "description": "Reap the shadows around you. While reaping, the cooldown time of Double Shear, Grim Strike, Pendulum Strike, Whipsaw, Sundering Strike, Cable Step, Death Spiral, Smite, and Retaliate are reduced by 70%."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Shrouded Escape",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "0",
+            "group": "37"
+          },
+          {
+            "name": "Energetic Shrouded Escape",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 35%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "1",
+            "group": "37",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Shrouded Escape",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "38"
+          },
+          {
+            "name": "Lingering Shrouded Escape",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases effect duration by 100%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "38",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Shrouded Escape",
+        "description": "Cloak yourself in shadow, reducing aggro and becoming invisible. This effect lasts for 5 seconds maximum, and dispels on using a skill or being attacked."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Cable Step",
+            "level": "60",
+            "cost": "2",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "39",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Cable Step",
+            "level": "58",
+            "cost": "2",
+            "description": "Speeds casting for your next skill by 50% after a successful hit.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "40",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Cable Step",
+            "level": "60",
+            "cost": "3",
+            "description": "Increases skill damage of Shadow Burst by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "41",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Cable Step",
+        "description": "Throw your scythes on cables at a target within 18 meters. After hitting and stunning the target, you pull on the cables to fly toward the target."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Shadow Step",
+            "level": "60",
+            "cost": "4",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "42",
+            "highest": "1"
+          },
+          {
+            "name": "Fleetfooted Shadow Step",
+            "level": "58",
+            "cost": "6",
+            "description": "Increases Combat Movement Speed by 50 for 2 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "43"
+          },
+          {
+            "name": "Fleetfooted Shadow Step",
+            "level": "65",
+            "cost": "5",
+            "description": "Increases Combat Movement Speed by 50 for 2 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "43",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Shadow Step",
+        "description": "Instantly leap forward to evade enemy attacks. You can Shadow Step twice within 4 seconds, and you can change direction between leaps. A cooldown triggers after the second leap (or 4 seconds after the first)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{791C501A-CEB0-471A-8A66-35D0F350247B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TERA_Glyph_Calculator</RootNamespace>
+    <AssemblyName>TERA Glyph Calculator</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.6.0-alpha004\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.6.0-alpha004\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Class Windows\Ranged\Archer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Meele\Berserker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Tank\Brawler.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Ranged\Gunner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Tank\Lancer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Heal\Mystic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Meele\Ninja.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Heal\Priest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Meele\Reaper.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Meele\Slayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Ranged\Sorcerer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Meele\Valkyrie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Class Windows\Meele\Warrior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class Windows\Ranged\Archer.xaml.cs">
+      <DependentUpon>Archer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Meele\Berserker.xaml.cs">
+      <DependentUpon>Berserker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Tank\Brawler.xaml.cs">
+      <DependentUpon>Brawler.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Ranged\Gunner.xaml.cs">
+      <DependentUpon>Gunner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Tank\Lancer.xaml.cs">
+      <DependentUpon>Lancer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Heal\Mystic.xaml.cs">
+      <DependentUpon>Mystic.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Meele\Ninja.xaml.cs">
+      <DependentUpon>Ninja.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Heal\Priest.xaml.cs">
+      <DependentUpon>Priest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Meele\Reaper.xaml.cs">
+      <DependentUpon>Reaper.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Meele\Slayer.xaml.cs">
+      <DependentUpon>Slayer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Ranged\Sorcerer.xaml.cs">
+      <DependentUpon>Sorcerer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Meele\Valkyrie.xaml.cs">
+      <DependentUpon>Valkyrie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class Windows\Meele\Warrior.xaml.cs">
+      <DependentUpon>Warrior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="JsonHandler.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Json\archer.json" />
+    <None Include="Json\berserker.json" />
+    <None Include="Json\brawler.json" />
+    <None Include="Json\gunner.json" />
+    <None Include="Json\lancer.json" />
+    <None Include="Json\mystic.json" />
+    <None Include="Json\ninja.json" />
+    <None Include="Json\priest.json" />
+    <None Include="Json\reaper.json" />
+    <None Include="Json\slayer.json" />
+    <None Include="Json\sorcerer.json" />
+    <None Include="Json\valkyrie.json" />
+    <None Include="Json\warrior.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="images\Glyph Images\E_CrestActiveAttackSpeedDown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestActiveAttackSpeedUp_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestActiveAttackUp_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivecooltimereset_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestActiveDefenceDown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestActiveDefenceUp_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestActiveHpRecoveryUp_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactiveinvokeskill_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivekill_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivempheal_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivempzero_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivepenaltydelete_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivepoison_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestActiveReactionResist_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestActiveReactionUp_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivespeeddown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivespeedup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestactivestun_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestNextSkillAttackSpeedUp_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestNextSkillAttackUp_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestNextSkillHpHeal_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestNextSkillMpDown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassiveaggroup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassiveattackup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivebalanceup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivechargemove_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivecooltimedown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivecriticalup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivedeffeceup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivedurationup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivehealabnormality_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivehpattackup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivehpdown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivehpheal_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivehpmpheal_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivehprecoveryup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivehpwhileheal_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivelockontargetup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivemasicdefence_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivemaxabsorbup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivempdown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivempheal_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivemprecoveryup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassiveoverchargehpdown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivepartympup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivepenaltydelete_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassiverangeup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivereactionresist_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestPassiveReactionUp_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassiveskillcancel_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassiveskilleffectdown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassiveskilleffectup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassiveskillrangeup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassiveskillspeedup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivespeeddown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivestunpercentup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivestuntimeup_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivetargethealdown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_Crestpassivetargetspeeddown_Tex.png" />
+    <Resource Include="images\Glyph Images\E_crestpassivethorns_Tex.png" />
+    <Resource Include="images\Glyph Images\E_CrestSTRecover_Tex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\Class Images\archer_class.png" />
+    <Resource Include="images\Class Images\archer_class_highlight.png" />
+    <Resource Include="images\Skill Images\archer_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\berserker_class.png" />
+    <Resource Include="images\Class Images\berserker_class_highlight.png" />
+    <Resource Include="images\Skill Images\berserker_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\brawler_class.png" />
+    <Resource Include="images\Class Images\brawler_class_highlight.png" />
+    <Resource Include="images\Skill Images\brawler_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\DWdlNCd.png" />
+    <Resource Include="images\Class Images\gunner_class.png" />
+    <Resource Include="images\Class Images\gunner_class_highlight.png" />
+    <Resource Include="images\Class Images\gunner_class_hightlight.png" />
+    <Resource Include="images\Skill Images\gunner_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\lancer_class.png" />
+    <Resource Include="images\Class Images\lancer_class_highlight.png" />
+    <Resource Include="images\Skill Images\lancer_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\mystic_class.png" />
+    <Resource Include="images\Class Images\mystic_class_highlight.png" />
+    <Resource Include="images\Skill Images\mystic_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\ninja_class.png" />
+    <Resource Include="images\Class Images\ninja_class_highlight.png" />
+    <Resource Include="images\Skill Images\ninja_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\priest_class.png" />
+    <Resource Include="images\Class Images\priest_class_highlight.png" />
+    <Resource Include="images\Skill Images\priest_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\reaper_class.png" />
+    <Resource Include="images\Class Images\reaper_class_highlight.png" />
+    <Resource Include="images\Skill Images\reaper_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\slayer_class.png" />
+    <Resource Include="images\Class Images\slayer_class_highlight.png" />
+    <Resource Include="images\Skill Images\slayer_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\sorcerer_class.png" />
+    <Resource Include="images\Class Images\sorcerer_class_highlight.png" />
+    <Resource Include="images\Skill Images\sorcerer_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\valkyrie_class.png" />
+    <Resource Include="images\Class Images\valkyrie_class_highlight.png" />
+    <Resource Include="images\Skill Images\valkyrie_skill_icons_32x32.png" />
+    <Resource Include="images\Class Images\warrior_class.png" />
+    <Resource Include="images\Class Images\warrior_class_highlight.png" />
+    <Resource Include="images\Skill Images\warrior_skill_icons_32x32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

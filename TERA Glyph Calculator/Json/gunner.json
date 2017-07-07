@@ -1,0 +1,862 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Empowered Blast",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          },
+          {
+            "name": "Ardent Blast",
+            "level": "20",
+            "cost": "2",
+            "description": "Generates 5 Willpower on a sucessful hit.",
+            "image": "E_creststrecover_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "2",
+            "highest": "1"
+          },
+          {
+            "name": "Swift Blast",
+            "level": "20",
+            "cost": "4",
+            "description": "15% chance to increase Attack Speed by 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "3",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Blast",
+        "description": "Fire a shot which explodes on impact or up to 20m away."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Hastened Bombardment",
+            "level": "28",
+            "cost": "4",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "4",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Bombardment",
+            "level": "28",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "5"
+          },
+          {
+            "name": "Carving Bombardment",
+            "level": "58",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "5"
+          },
+          {
+            "name": "Carving Bombardment",
+            "level": "65",
+            "cost": "4",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "5",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Bombardment",
+        "description": "Press the skill button once to target an area within 25m, then press the skill button again to launch a volley of eleven shots with a high chance of stagger. Gain 100 Willpower for each successful hit."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Slick Scattershot",
+            "level": "24",
+            "cost": "2",
+            "description": "Reduces recoil by 40%",
+            "image": "E_crestpassivepenaltydelete_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "6",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Scattershot",
+            "level": "20",
+            "cost": "1",
+            "description": "Reduces MP cost by 50.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "7",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Scattershot",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "8"
+          },
+          {
+            "name": "Empowered Scattershot",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "8"
+          },
+          {
+            "name": "Empowered Scattershot",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "8",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Scattershot",
+        "description": "Fire a spread of five penetrating shots at enemies within 20m. Gain 20 Willpower for each successful hit, up to a maximum of 100 Willpower."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Opportunistic Point Blank",
+            "level": "24",
+            "cost": "3",
+            "description": "20% chance to eliminate cooldown for Arc Bomb.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "9",
+            "highest": "1"
+          },
+          {
+            "name": "Restorative Point Blank",
+            "level": "26",
+            "cost": "2",
+            "description": "Recovers 2% of total HP on each hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "10",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Point Blank",
+            "level": "22",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "11",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Point Blank",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "12"
+          },
+          {
+            "name": "Empowered Point Blank",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "12"
+          },
+          {
+            "name": "Empowered Point Blank",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "5",
+            "group": "12",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Point Blank",
+        "description": "Swing your arcannon to attack enemies within 7m. Press the skill button again to fire a shot knocking them-and you-back."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Restorative Burst Fire",
+            "level": "24",
+            "cost": "4",
+            "description": "Recovers 1.0% of total HP on each hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "13",
+            "highest": "1"
+          },
+          {
+            "name": "Affirmative Burst Fire",
+            "level": "58",
+            "cost": "4",
+            "description": "Reduces Willpower cost by 10.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "14",
+            "highest": "1"
+          },
+          {
+            "name": "Longshot Burst Fire",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases range by 5 meters.",
+            "image": "E_crestpassiverangeup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "15"
+          },
+          {
+            "name": "Longshot Burst Fire",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases range by 5 meters.",
+            "image": "E_crestpassiverangeup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "15"
+          },
+          {
+            "name": "Longshot Burst Fire",
+            "level": "65",
+            "cost": "2",
+            "description": "Increases range by 5 meters.",
+            "image": "E_crestpassiverangeup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "15",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Burst Fire",
+        "description": "Fire a penetrating shot affecting up to three enemies in a line up to 20m away. Holding down the skill button continues firing as long as you have Willpower. Each successive shot has increased skill damage and chance to crit. Enemies hit are slowed (no effect on bosses)."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Time Bomb",
+            "level": "34",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "16",
+            "highest": "1"
+          },
+          {
+            "name": "Ardent Time Bomb",
+            "level": "40",
+            "cost": "2",
+            "description": "Generates 15 Willpower on a successful hit.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "17",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Time Bomb",
+        "description": "Fire a shot that explodes on impact or up to 20m away, leaving behind a Time Bomb that detonates two seconds later. Enemies near a Time Bomb are slowed, and the secondary detonation blasts any surviving enemies into the air. Gain 20 Willpower on a successful hit, and 40 Willpower from the secondary detonation. The Time Bomb does not lift bosses or elite monsters."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Ardent Arcane Barrage",
+            "level": "24",
+            "cost": "2",
+            "description": "Generates an additional 15 Willpower on each hit.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "18",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Arcane Barrage",
+            "level": "28",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "19"
+          },
+          {
+            "name": "Empowered Arcane Barrage",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "19",
+            "highest": "1"
+          },
+          {
+            "name": "Swift Arcane Barrage",
+            "level": "30",
+            "cost": "4",
+            "description": "Increases Attack Speed by 30% until Arcane Barrage detonates.",
+            "image": "E_crestactiveinvokeskill_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "20"
+          },
+          {
+            "name": "Swift Arcane Barrage",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases Attack Speed by 30% until Arcane Barrage detonates.",
+            "image": "E_crestactiveinvokeskill_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "20",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Arcane Barrage",
+        "description": "Fire an energy pulse that damages all enemies in a line up to 22m. Press the skill button again to detonate the pulse, damaging and knocking down enemies in a wide radius with a high chance to crit and gaining Willpower. If used within 40m of a summoned HB construct, the HB fires five Electric Bombs at the detonation point."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Mana Missiles",
+            "level": "44",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "21"
+          },
+          {
+            "name": "Carving Mana Missiles",
+            "level": "58",
+            "cost": "5",
+            "description": "Triples the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "21"
+          },
+          {
+            "name": "Carving Mana Missiles",
+            "level": "65",
+            "cost": "4",
+            "description": "Triples the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "2",
+            "group": "21",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Mana Missiles",
+        "description": "Launch a weaving pair of missiles up to 30m. Each missile that strikes an enemy explodes, with a high chance of knockdown and generating 20 Willpower. Charging the skill creates three additional missiles."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Arc Bomb",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases stun duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "22",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Arc Bomb",
+            "level": "20",
+            "cost": "2",
+            "description": "Reduces MP cost by 50.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "23",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Arc Bomb",
+            "level": "22",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "24"
+          },
+          {
+            "name": "Empowered Arc Bomb",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "24",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Arc Bomb",
+        "description": "Lob a bomb up to 14m, which can bounce up to three times before exploding. On striking an enemy, the bomb generates 20 Willpower and explodes, stunning nearby enemies."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Rocket Jump",
+            "level": "26",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "25"
+          },
+          {
+            "name": "Energetic Rocket Jump",
+            "level": "58",
+            "cost": "3",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "25",
+            "highest": "1"
+          },
+          {
+            "name": "Fleetfooted Rocket Jump",
+            "level": "48",
+            "cost": "6",
+            "description": "Increases Movement Speed by 50% for 5 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "26"
+          },
+          {
+            "name": "Fleetfooted Rocket Jump",
+            "level": "65",
+            "cost": "5",
+            "description": "Increases Movement Speed by 50% for 5 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "26",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Rocket Jump",
+        "description": "Spin and fire at the ground, damaging nearby enemies and propelling yourself in whatever direction you are facing. Use during Rolling Reload for additional distance."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Vengeance",
+            "level": "60",
+            "cost": "5",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "27"
+          },
+          {
+            "name": "Energetic Vengeance",
+            "level": "58",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "27",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Balder's Vengeance",
+            "level": "65",
+            "cost": "6",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "28"
+          },
+          {
+            "name": "Empowered Balder's Vengeance",
+            "level": "65",
+            "cost": "5",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "rare": "1",
+            "id": "3",
+            "group": "28",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Balder's Vengeance",
+        "description": "Deal damage to all enemies in front of you, up to 30m, with a very high chance to crit. You are invulnerable while using this skill."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Ardent Replenishment",
+            "level": "22",
+            "cost": "4",
+            "description": "Generates additional 50 Willpower when the skill is used.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "29",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Replenishment",
+            "level": "22",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "30"
+          },
+          {
+            "name": "Energetic Replenishment",
+            "level": "58",
+            "cost": "3",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "30"
+          },
+          {
+            "name": "Energetic Replenishment",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "30",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Replenishment",
+        "description": "Replenish X MP and X Willpower. May eliminate cooldowns for Scattershot and Arcane Barrage (50% chance for each)."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Companion",
+            "level": "28",
+            "cost": "2",
+            "description": "Increases skill damage by 100%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "31",
+            "highest": "1"
+          },
+          {
+            "name": "Keen HB Construct",
+            "level": "65",
+            "cost": "2",
+            "description": "Summons an HB construct that doubles Crit Factor for 1 second, but has no HP recovery effect.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "32",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "HB",
+        "description": "Summon a construct to aid you. HB damages nearby enemies when summoned. When you are nearby and below max HP, HB aims a healing ray at you. Command: Stay\/Follow, Command: Recall, and Command: Self-Destruct work while HB-1 is active and within 40m. If you move more than 80m from HB-1, it will teleport to your side. Lasts up to 30 minutes."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Turret",
+            "level": "46",
+            "cost": "4",
+            "description": "Increases duration by 30%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "33",
+            "highest": "1"
+          },
+          {
+            "name": "Brilliant Turret",
+            "level": "52",
+            "cost": "1",
+            "description": "Reduces MP cost by 100.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "34",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Turret",
+            "level": "20",
+            "cost": "3",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "35"
+          },
+          {
+            "name": "Energetic Turret",
+            "level": "58",
+            "cost": "2",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "35",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Turret",
+            "level": "40",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "36"
+          },
+          {
+            "name": "Empowered Turret",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "36",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "ST",
+        "description": "Summon a construct to aid you in combat. Throw ST at a spot within 18m, and it will continually attack enemies within 18m for 45 seconds. Command: Self-Destruct works while ST is active."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Retaliate",
+            "level": "22",
+            "cost": "3",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "37",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Retaliate",
+            "level": "28",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "38",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target. You can use this skill only when knocked down. You become briefly immune to knockdown, stagger, and stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Command: Recall",
+            "level": "63",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "39"
+          },
+          {
+            "name": "Energetic Command: Recall",
+            "level": "58",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "39",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Command: Recall",
+        "description": "Travel in a straight line to your HB construct, passing through enemies without effect. You must be within 40m to use this skill. Can be used while knocked down or using another skill."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Self-Destruct",
+            "level": "40",
+            "cost": "3",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "40"
+          },
+          {
+            "name": "Energetic Command: Self-Destruct",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "40",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Command: Self-Destruct",
+        "description": "Order your summoned constructs to detonate, damaging and stunning enemies within 4m. You must be within 40m of a construct to issue this command, and can do so even if knocked down or using another skill."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Rolling Reload",
+            "level": "24",
+            "cost": "4",
+            "description": "Increases skill damage of Scattershot by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "41"
+          },
+          {
+            "name": "Powerlinked Rolling Reload",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage of Scattershot by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "41",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Rolling Reload",
+            "level": "20",
+            "cost": "4",
+            "description": "25% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "42"
+          },
+          {
+            "name": "Persistent Rolling Reload",
+            "level": "58",
+            "cost": "3",
+            "description": "30% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "42"
+          },
+          {
+            "name": "Persistent Rolling Reload",
+            "level": "65",
+            "cost": "3",
+            "description": "35% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "42",
+            "highest": "1"
+          }
+        ],
+        "id": "r",
+        "name": "Rolling Reload",
+        "description": "Dodge enemy attacks and eliminate the cooldown for Scattershot. Cancels all skill animations except for that of Balder's Vengeance. You are immune to damage while rolling."
+      }
+    ]
+  }
+}

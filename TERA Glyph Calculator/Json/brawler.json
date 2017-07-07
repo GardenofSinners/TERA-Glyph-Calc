@@ -1,0 +1,916 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Ardent Punch",
+            "level": "24",
+            "cost": "3",
+            "description": "Increases MP replenishment by 15% per successful hit.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          },
+          {
+            "name": "Swift Punch",
+            "level": "20",
+            "cost": "4",
+            "description": "10% chance to increase Attack Speed by 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "2",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Punch",
+            "level": "20",
+            "cost": "3",
+            "description": "Increase skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "3"
+          },
+          {
+            "name": "Empowered Punch",
+            "level": "58",
+            "cost": "3",
+            "description": "Increase skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "3",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Punch",
+        "description": "Throw a punch, replenishing your MP and increasing your Rage."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Counter",
+            "level": "24",
+            "cost": "3",
+            "description": "Increases all skill damage by 50% for 6 seconds after Perfect Defense.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "4",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Counter",
+            "level": "20",
+            "cost": "3",
+            "description": "Increase skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "5"
+          },
+          {
+            "name": "Empowered Counter",
+            "level": "58",
+            "cost": "3",
+            "description": "Increase skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "5",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Counter",
+            "level": "65",
+            "cost": "3",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "6",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Counter",
+        "description": "Hold your stand and your body encases in an orange glow to block attacks. In addition, you can use the skill Punch in any consecutive amount of times (1\/2\/3\/4) and then chain to this skill to do a special attack while blocking incoming attacks at the same time. By using Punch in chain with this skill will increase your rage meter if you land a hit. "
+      },
+      {
+        "glyph": [
+          {
+            "name": "Ardent Divine Wrath",
+            "level": "58",
+            "cost": "4",
+            "description": "Generates an additional 50% Rage per successful hit.",
+            "image": "E_creststrecover_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "7",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Divine Wrath",
+            "level": "58",
+            "cost": "6",
+            "description": "Decrease cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "8",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Divine Wrath",
+        "description": "Call up on the fury of the gods to leap into the air and smite a group of enemies, with a high chance of knockdown and a high change to crit. Also blocks attacks from the front. When your Rage is full, press the skill button once to activate, select your target area, then press the skill button again to execute."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Ground Pounder",
+            "level": "28",
+            "cost": "4",
+            "description": "Decrease cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "9",
+            "highest": "1"
+          },
+          {
+            "name": "Ardent Ground Pounder",
+            "level": "20",
+            "cost": "2",
+            "description": "Generates an additional 3% Rage per successful hit.",
+            "image": "E_creststrecover_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "10"
+          },
+          {
+            "name": "Ardent Ground Pounder",
+            "level": "58",
+            "cost": "1",
+            "description": "Generates an additional 3% Rage per successful hit.",
+            "image": "E_creststrecover_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "10",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Ground Pounder",
+            "level": "24",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "11"
+          },
+          {
+            "name": "Empowered Ground Pounder",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "11",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Ground Pounder",
+            "level": "58",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "12"
+          },
+          {
+            "name": "Carving Ground Pounder",
+            "level": "65",
+            "cost": "4",
+            "description": "Triples the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "6",
+            "group": "12",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Ground Pounder",
+        "description": "Pound the ground at your feet to pull the enemies closer, then knock them into the air, increasing your Rage. Blocks attacks from the front. Correct timing leads to Perfect Defense, which immediately deals one critical hit to the enemy (if within 8m) and generates an additional 200 Rage."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Bull Rush",
+            "level": "20",
+            "cost": "4",
+            "description": "Decrease cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "13",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Bull Rush",
+        "description": "Charge forward, driving back enemies in your path, generating aggro. Use your mouse to adjust your course in mid-charge. Enemy player can use evasion type skills while being pushed."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Haymaker",
+            "level": "28",
+            "cost": "2",
+            "description": "Reduces MP cost by 100.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "14",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Haymaker",
+            "level": "32",
+            "cost": "4",
+            "description": "20% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "15",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Haymaker",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "16"
+          },
+          {
+            "name": "Empowered Haymaker",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "16",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Haymaker",
+            "level": "24",
+            "cost": "4",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "17"
+          },
+          {
+            "name": "Carving Haymaker",
+            "level": "58",
+            "cost": "5",
+            "description": "Increases the chance to crit by 2.5 times.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "17"
+          },
+          {
+            "name": "Carving Haymaker",
+            "level": "65",
+            "cost": "4",
+            "description": "Triples the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "6",
+            "group": "17",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Haymaker",
+        "description": "Wind up and throw a terrific punch, with a high chance of knocking the enemy down. A successful hit increases your Rage. (You deal more damage when the enemy’s HP is lower.)"
+      },
+      {
+        "glyph": [
+          {
+            "name": "Grounding Roundhouse Kick",
+            "level": "24",
+            "cost": "3",
+            "description": "Adds frontal defense effect to Jackhammer\/Piledriver\/Haymaker if the skill is used within 5 seconds.",
+            "image": "E_crestpassivedeffeceup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "18",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Roundhouse Kick",
+            "level": "28",
+            "cost": "3",
+            "description": "Decrease cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "19"
+          },
+          {
+            "name": "Energetic Roundhouse Kick",
+            "level": "58",
+            "cost": "3",
+            "description": "Decrease cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "19",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Roundhouse Kick",
+            "level": "20",
+            "cost": "3",
+            "description": "Increases all skill damage by 10% for 3 seconds after a successful hit.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "20"
+          },
+          {
+            "name": "Powerlinked Roundhouse Kick",
+            "level": "65",
+            "cost": "2",
+            "description": "Increases all skill damage by 15% for 3 seconds after a successful hit.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "20",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Roundhouse Kick",
+        "description": "Kicks monsters up into the air, increasing your Rage. Staggers enemy players."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Opportunistic Piledriver",
+            "level": "24",
+            "cost": "4",
+            "description": "60% chance to eliminate cooldown for Roundhouse Kick upon successfully hitting a monster.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "21"
+          },
+          {
+            "name": "Opportunistic Piledriver",
+            "level": "58",
+            "cost": "3",
+            "description": "60% chance to eliminate cooldown for Roundhouse Kick upon successfully hitting a monster.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "21",
+            "highest": "1"
+          },
+          {
+            "name": "Ardent Piledriver",
+            "level": "28",
+            "cost": "2",
+            "description": "Generates an additional 2% Rage per successful hit",
+            "image": "E_creststrecover_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "22"
+          },
+          {
+            "name": "Ardent Piledriver",
+            "level": "58",
+            "cost": "1",
+            "description": "Generates an additional 2% Rage per successful hit",
+            "image": "E_creststrecover_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "22",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Piledriver",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "23"
+          },
+          {
+            "name": "Empowered Piledriver",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "23",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Piledriver",
+        "description": "Deliver a series of uppercuts while leaping into the air—then end with a powerful downward blow. Successful hits increase your Rage."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Aggravating Jackhammer",
+            "level": "24",
+            "cost": "3",
+            "description": "Increases damage by 25% to targets suspended in air.",
+            "image": "E_crestactiveinvokeskill_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "24",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Jackhammer",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "25"
+          },
+          {
+            "name": "Empowered Jackhammer",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "25",
+            "highest": "1"
+          },
+          {
+            "name": "Carving Jackhammer",
+            "level": "28",
+            "cost": "3",
+            "description": "Increases the chance to crit by 1.5 times.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "26"
+          },
+          {
+            "name": "Carving Jackhammer",
+            "level": "58",
+            "cost": "3",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "26",
+            "highest": "1"
+          },
+          {
+            "name": "Ardent Jackhammer",
+            "level": "58",
+            "cost": "2",
+            "description": "Generates an additional 1% Rage per successful hit.",
+            "image": "E_creststrecover_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "27",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Jackhammer",
+        "description": "Hammer the enemy with a flurry of rapid jabs, increasing your Rage and decreasing enemy’s Endurance."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Counterpunch",
+            "level": "22",
+            "cost": "4",
+            "description": "Decrease cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "28"
+          },
+          {
+            "name": "Energetic Counterpunch",
+            "level": "58",
+            "cost": "3",
+            "description": "Decrease cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "28",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Counterpunch",
+            "level": "26",
+            "cost": "3",
+            "description": "Increase skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "29"
+          },
+          {
+            "name": "Empowered Counterpunch",
+            "level": "58",
+            "cost": "3",
+            "description": "Increase skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "29",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Counterpunch",
+        "description": "After a successful block, throw a counterpunch that knocks the enemy up into the air, increasing your Rage. Blocks attacks from the front. Correct timing leads to Perfect Defense, which immediately deals one critical hit to the enemy (if within 8m) and generates an additional 200 Rage."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Retaliate",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "30",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Retaliate",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "31",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target, increasing your Rage. You can use this skill only when knocked down. You become briefly immune to knockdown, stagger and stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Provoke",
+            "level": "20",
+            "cost": "2",
+            "description": "Reduce MP cost by 100. ",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "32",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Provoke",
+            "level": "20",
+            "cost": "4",
+            "description": "Decrease cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "33",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Provoke",
+        "description": "Draw the attention of enemies within 10m, increasing their aggro toward you. Can be used while moving."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Infuriate",
+            "level": "65",
+            "cost": "6",
+            "description": "Decrease cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "34",
+            "highest": "1"
+          },
+          {
+            "name": "Slowing Infuriate",
+            "level": "65",
+            "cost": "4",
+            "description": "Decreases opponent's Movement Speed by 50% for 5 seconds.",
+            "image": "E_crestpassivespeeddown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "35"
+          },
+          {
+            "name": "Slowing Infuriate",
+            "level": "65",
+            "cost": "3",
+            "description": "Decreases opponent's Movement Speed by 50% for 5 seconds.",
+            "image": "E_crestpassivespeeddown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "35",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "Infuriate",
+        "description": "Challenge enemies within 10m range, drawing maximum aggro."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brutal High Kick",
+            "level": "24",
+            "cost": "4",
+            "description": "Doubles damage to the knocked-down target.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "36"
+          },
+          {
+            "name": "Brutal High Kick",
+            "level": "65",
+            "cost": "3",
+            "description": "Triples damage to the knocked-down target.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "1",
+            "group": "36",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "High Kick",
+        "description": "Kick a knocked-down enemy up in the air, increasing your Rage. Activates when you knock down an enemy."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Lingering Flip Kick",
+            "level": "40",
+            "cost": "4",
+            "description": "Increases effect duration by 50%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "37",
+            "highest": "1"
+          },
+          {
+            "name": "Aggravating Flip Kick",
+            "level": "44",
+            "cost": "3",
+            "description": "Increases damage by 50% to targets suspended in air.",
+            "image": "E_crestactiveinvokeskill_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "38",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Flip Kick",
+        "description": "Kick an enemy in the head, stunning the enemy for 3 seconds and increasing your Rage. When used on an enemy player who’s knocked up into the air, the enemy player can’t use Retaliate for 3 seconds."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Spirited Rampage",
+            "level": "20",
+            "cost": "3",
+            "description": "Each hit by this skill will increase your MP regeneration by 2%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "39",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Rampage",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 20%. ",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "40"
+          },
+          {
+            "name": "Empowered Rampage",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 20%. ",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "40",
+            "highest": "1"
+          },
+          {
+            "name": "Restorative Rampage",
+            "level": "28",
+            "cost": "4",
+            "description": "Recovers 1.0% of total HP per successful hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "41"
+          },
+          {
+            "name": "Restorative Rampage",
+            "level": "58",
+            "cost": "3",
+            "description": "Recovers 1.5% of total HP per successful hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "41",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Rampage",
+        "description": "Rush the enemy from up to 24m away and deliver a series of devastating blows. Knocks enemy into the air and blocks attacks from the front. Correct timing leads to Perfect Defense, which immediately deals one critical hit to the enemy (if within 8m) and generates an additional 200 Rage."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Pumped Growing Fury",
+            "level": "36",
+            "cost": "4",
+            "description": "Increases power by 25 during the duration of effect.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "42",
+            "highest": "1"
+          },
+          {
+            "name": "Threatening Growing Fury",
+            "level": "40",
+            "cost": "4",
+            "description": "Increases aggro by 20%.",
+            "image": "E_crestpassiveaggroup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "43",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Growing Fury",
+        "description": "Reveal your true power. Body Size increases by 10%. Power and Crit Rate increased by 50. Attack speed decreased by 10. Skill cooldown reduced by 30%. All skills will let you block damage during the duration of this effect. Rage meter will reduce by 300 every second. Skills such as 'Rampage' and 'Divine Wrath' cannot be used while under this state. While the skill 'Invigorating Rage' is active this skill cannot be activated."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Invigorating Rage",
+            "level": "46",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "44",
+            "highest": "1"
+          }
+        ],
+        "id": "r",
+        "name": "Invigorating Rage",
+        "description": "Burn off half your Rage to recover 40% of your HP and replenish 40% of your MP."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Meat Grinder",
+            "level": "28",
+            "cost": "4",
+            "description": "Decrease cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "45",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Meat Grinder",
+            "level": "32",
+            "cost": "4",
+            "description": "Increase skill damage by 20%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "46"
+          },
+          {
+            "name": "Empowered Meat Grinder",
+            "level": "58",
+            "cost": "4",
+            "description": "Increase skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "46",
+            "highest": "1"
+          }
+        ],
+        "id": "s",
+        "name": "Meat Grinder",
+        "description": "Target an enemy suspended in air and pummel it with a series of devastating blows, increasing your Rage. When used on an enemy player, the enemy player cannot use evasion type skills for 3 seconds."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Mounting Rage",
+            "level": "60",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "47",
+            "highest": "1"
+          }
+        ],
+        "id": "t",
+        "name": "Mounting Rage",
+        "description": "Immediately gain 50% of your maximum Rage, then gain 50 more Rage every second for 20 seconds. You cannot use this skill while Growing Fury is in effect."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Persistent Quick Dash",
+            "level": "20",
+            "cost": "3",
+            "description": "20% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "48"
+          },
+          {
+            "name": "Persistent Quick Dash",
+            "level": "58",
+            "cost": "3",
+            "description": "30% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "48",
+            "highest": "1"
+          }
+        ],
+        "id": "u",
+        "name": "Quick Dash",
+        "description": "Dodge past your enemy’s attack."
+      }
+    ]
+  }
+}

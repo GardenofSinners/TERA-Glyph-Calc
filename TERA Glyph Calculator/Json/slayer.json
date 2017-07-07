@@ -1,0 +1,1048 @@
+{
+  "class": {
+    "skill": [
+      {
+        "glyph": [
+          {
+            "name": "Empowered Combo Attack",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "1",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Combo Attack",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases MP replenishment by 10%.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "2",
+            "highest": "1"
+          },
+		  {
+            "name": "Swift Combo Attack",
+            "level": "20",
+            "cost": "5",
+            "description": "10% chance to increase Attack Speed 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "3"
+          },
+          {
+            "name": "Swift Combo Attack",
+            "level": "58",
+            "cost": "4",
+            "description": "10% chance to increase Attack Speed 15% for 10 seconds.",
+            "image": "E_crestactiveattackspeedup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "3",
+            "highest": "1"
+          }
+        ],
+        "id": "a",
+        "name": "Combo Attack",
+        "description": "Strike one or more targets in front of you, and gain MP with each hit. Successive strikes do more damage, up to four hits, with the fourth hit dealing substantially more."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Powerlinked Knockdown Strike",
+            "level": "20",
+            "cost": "2",
+            "description": "Increases skill damage of Whirlwind by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "4",
+            "highest": "1"
+          },
+          {
+            "name": "Grounded Knockdown Strike",
+            "level": "20",
+            "cost": "3",
+            "description": "Reduces damage taken by 50% while casting.",
+            "image": "E_crestpassivedeffeceup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "5",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Knockdown Strike",
+            "level": "20",
+            "cost": "2",
+            "description": "Increases skill damage of Overhand Strike by 20% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "6",
+            "highest": "1"
+          },
+          {
+            "name": "Strengthened Knockdown Strike",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases chance of knockdown and stagger by 20%.",
+            "image": "E_crestpassivereactionup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "7",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Knockdown Strike",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "8"
+          },
+          {
+            "name": "Empowered Knockdown Strike",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "8"
+          },
+          {
+            "name": "Empowered Knockdown Strike",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "6",
+            "group": "8",
+            "highest": "1"
+          }
+        ],
+        "id": "b",
+        "name": "Knockdown Strike",
+        "description": "Bowl your enemy over with a mighty swing of your sword."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Whirlwind",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 63.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "9",
+            "highest": "1"
+          },
+          {
+            "name": "Keen Whirlwind",
+            "level": "58",
+            "cost": "5",
+            "description": "Triples Crit Factor.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "10"
+          },
+          {
+            "name": "Keen Whirlwind",
+            "level": "65",
+            "cost": "4",
+            "description": "Triples Crit Factor.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "2",
+            "group": "10",
+            "highest": "1"
+          }
+        ],
+        "id": "c",
+        "name": "Whirlwind",
+        "description": "Spin with your sword, hitting targets within 3m."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Persistent Evasive Roll",
+            "level": "20",
+            "cost": "4",
+            "description": "20% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "11",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Evasive Roll",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases damage of Fury Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "12",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Evasive Roll",
+            "level": "58",
+            "cost": "4",
+            "description": "Increases damage of Backstab by 25% for a few seconds.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "13",
+            "highest": "1"
+          },
+          {
+            "name": "Fleetfooted Evasive Roll",
+            "level": "20",
+            "cost": "4",
+            "description": "30% chance to increase Combat Movement Speed 15% for 10 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "14"
+          },
+          {
+            "name": "Fleetfooted Evasive Roll",
+            "level": "58",
+            "cost": "3",
+            "description": "30% chance to increase Combat Movement Speed 15% for 10 seconds.",
+            "image": "E_crestactivespeedup_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "14",
+            "highest": "1"
+          }
+        ],
+        "id": "d",
+        "name": "Evasive Roll",
+        "description": "Dodge your enemy's attack."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Dash",
+            "level": "32",
+            "cost": "4",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "15",
+            "highest": "1"
+          }
+        ],
+        "id": "e",
+        "name": "Dash",
+        "description": "Increase your speed by X% for X seconds."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Blazing Backstab",
+            "level": "56",
+            "cost": "4",
+            "description": "Speeds casting of Knockdown Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "16",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Backstab",
+            "level": "56",
+            "cost": "4",
+            "description": "Speeds casting of Heart Thrust by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "17"
+          },
+          {
+            "name": "Blazing Backstab",
+            "level": "58",
+            "cost": "3",
+            "description": "Speeds casting of Heart Thrust by 35% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "17",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Backstab",
+            "level": "56",
+            "cost": "5",
+            "description": "Decreases cooldown by 15%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "18"
+          },
+          {
+            "name": "Energetic Backstab",
+            "level": "60",
+            "cost": "5",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "18",
+            "highest": "1"
+          }
+        ],
+        "id": "f",
+        "name": "Backstab",
+        "description": "Rush 10m and make a lethal thrust to your target's back. The target is immobilized. Ends if target is knocked down."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Restorative Overhand Strike",
+            "level": "20",
+            "cost": "5",
+            "description": "Recovers 3.0% of total HP per successful hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "19"
+          },
+          {
+            "name": "Restorative Overhand Strike",
+            "level": "58",
+            "cost": "4",
+            "description": "Recovers 3.0% of total HP per successful hit.",
+            "image": "E_crestpassivehpheal_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "19",
+            "highest": "1"
+          },
+          {
+            "name": "Persistent Overhand Strike",
+            "level": "20",
+            "cost": "4",
+            "description": "50% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "20"
+          },
+          {
+            "name": "Persistent Overhand Strike",
+            "level": "58",
+            "cost": "3",
+            "description": "50% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "20"
+          },
+          {
+            "name": "Persistent Overhand Strike",
+            "level": "65",
+            "cost": "2",
+            "description": "60% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "20",
+            "highest": "1"
+          }
+        ],
+        "id": "g",
+        "name": "Overhand Strike",
+        "description": "Swing downward for a massive blow. Skill activates faster if you first use Whirlwind, Knockdown Strike, Leaping Strike, Stunning Backhand, Heart Thrust, Startling Kick, Eviscerate, or the fourth consecutive hit with Combo Attack."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Leaping Strike",
+            "level": "24",
+            "cost": "4",
+            "description": "Reduces MP cost by 50.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "21",
+            "highest": "1"
+          }
+        ],
+        "id": "h",
+        "name": "Leaping Strike",
+        "description": "Jump at your foe and smash downward. Knocked-down foes take 5x damage once you learn Merciless Leap."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Retaliate",
+            "level": "25",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "22",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Retaliate",
+            "level": "24",
+            "cost": "5",
+            "description": "Increases damage of Leaping Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "23",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Retaliate",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "24",
+            "highest": "1"
+          }
+        ],
+        "id": "i",
+        "name": "Retaliate",
+        "description": "Leap to your feet while attacking your target. You can use this skill only when knocked down. You become briefly immune to knockdown, stagger, and stuns."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Persistent Heart Thrust",
+            "level": "38",
+            "cost": "4",
+            "description": "35% chance to eliminate cooldown.",
+            "image": "E_crestactivecooltimereset_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "25",
+            "highest": "1"
+          },
+          {
+            "name": "Keen Heart Thrust",
+            "level": "58",
+            "cost": "5",
+            "description": "Triples Crit Factor.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "26",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Heart Thrust",
+            "level": "38",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "27"
+          },
+          {
+            "name": "Empowered Heart Thrust",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "27",
+            "highest": "1"
+          }
+        ],
+        "id": "j",
+        "name": "Heart Thrust",
+        "description": "Step forward, attacking your target's vulnerable spots."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Stunning Backhand",
+            "level": "26",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "28"
+          },
+          {
+            "name": "Empowered Stunning Backhand",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "28",
+            "highest": "1"
+          }
+        ],
+        "id": "k",
+        "name": "Stunning Backhand",
+        "description": "Swing your sword around, briefly stunning your foe."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Distant Blade",
+            "level": "22",
+            "cost": "4",
+            "description": "Reduces MP cost by 18.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "29",
+            "highest": "1"
+          },
+          {
+            "name": "Numbing Distant Blade",
+            "level": "22",
+            "cost": "6",
+            "description": "20% chance to decrease opponent's attack speed by 15% for 5 seconds.",
+            "image": "E_crestactiveattackspeeddown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "30"
+          },
+          {
+            "name": "Numbing Distant Blade",
+            "level": "60",
+            "cost": "5",
+            "description": "30% chance to decrease opponent's attack speed by 15% for 5 seconds.",
+            "image": "E_crestactiveattackspeeddown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "30",
+            "highest": "1"
+          }
+        ],
+        "id": "l",
+        "name": "Distant Blade",
+        "description": "Strike at a target within 15m with a magic extension of your sword. Repeat the attack up to 3 hits.\n\nPVP: Reduced damage at max distance."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Startling Kick",
+            "level": "20",
+            "cost": "4",
+            "description": "Reduces MP cost by 30.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "31",
+            "highest": "1"
+          },
+          {
+            "name": "Lingering Startling Kick",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases effect duration by 30%.",
+            "image": "E_crestpassivedurationup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "32",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Startling Kick",
+            "level": "20",
+            "cost": "4",
+            "description": "Speeds casting of Knockdown Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "33",
+            "highest": "1"
+          },
+          {
+            "name": "Hastened Startling Kick",
+            "level": "58",
+            "cost": "3",
+            "description": "Speeds casting by 25%.",
+            "image": "E_crestpassiveskillspeedup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "34",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing Startling Kick",
+            "level": "38",
+            "cost": "4",
+            "description": "Speeds casting of Heart Thrust by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "4",
+            "group": "35"
+          },
+          {
+            "name": "Blazing Startling Kick",
+            "level": "58",
+            "cost": "3",
+            "description": "Speeds casting of Heart Thrust by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": "1",
+            "id": "5",
+            "group": "35",
+            "highest": "1"
+          }
+        ],
+        "id": "m",
+        "name": "Startling Kick",
+        "description": "Briefly stun your target with a kick, then leap backward."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Blazing Fury Strike",
+            "level": "30",
+            "cost": "4",
+            "description": "Speeds casting of Whirlwind by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "36",
+            "highest": "1"
+          },
+          {
+            "name": "Mending Fury Strike",
+            "level": "30",
+            "cost": "4",
+            "description": "Recovers 4% of total HP when you follow up with Stunning Backhand.",
+            "image": "E_crestnextskillhpheal_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "37",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Fury Strike",
+            "level": "30",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "38"
+          },
+          {
+            "name": "Empowered Fury Strike",
+            "level": "60",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "38"
+          },
+          {
+            "name": "Empowered Fury Strike",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 40%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": null,
+            "id": "4",
+            "group": "38",
+            "highest": "1"
+          }
+        ],
+        "id": "n",
+        "name": "Fury Strike",
+        "description": "Slash your sword in front of you; the lower your HP, the greater the damage."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Headlong Rush",
+            "level": "20",
+            "cost": "5",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "39",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Headlong Rush",
+            "level": "60",
+            "cost": "4",
+            "description": "Increases skill damage of Knockdown Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "40",
+            "highest": "1"
+          }
+        ],
+        "id": "o",
+        "name": "Headlong Rush",
+        "description": "Charge forward, increasing the speed of your next attack within 10 seconds by X%. Effect ends after 10 seconds or when you hit a target."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant Overpower",
+            "level": "50",
+            "cost": "3",
+            "description": "Reduces MP cost by 33.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "41",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Overpower",
+            "level": "58",
+            "cost": "3",
+            "description": "Increases skill damage by 10% for the next attack.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "42",
+            "highest": "1"
+          },
+          {
+            "name": "Keen Overpower",
+            "level": "58",
+            "cost": "4",
+            "description": "Doubles Crit Factor for the next attack.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "43"
+          },
+          {
+            "name": "Keen Overpower",
+            "level": "65",
+            "cost": "3",
+            "description": "Doubles Crit Factor for the next attack.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "43",
+            "highest": "1"
+          }
+        ],
+        "id": "p",
+        "name": "Overpower",
+        "description": "Gather your might for a decisive blow. Your next attack within 20 sec does X% extra damage."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Grounded Tenacity",
+            "level": "20",
+            "cost": "5",
+            "description": "Increases Endurance by 20% for 10 seconds.",
+            "image": "E_crestactivedefenceup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "44",
+            "highest": "1"
+          },
+          {
+            "name": "Balancing Tenacity",
+            "level": "20",
+            "cost": "4",
+            "description": "Increases balance by 50% for 15 seconds.",
+            "image": "E_crestactivereactionresist_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "45"
+          },
+          {
+            "name": "Balancing Tenacity",
+            "level": "58",
+            "cost": "4",
+            "description": "Doubles balance for 15 seconds.",
+            "image": "E_crestactivereactionresist_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "45",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Tenacity",
+            "level": "20",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "3",
+            "group": "46"
+          },
+          {
+            "name": "Energetic Tenacity",
+            "level": "58",
+            "cost": "3",
+            "description": "Decreases cooldown by 30%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "4",
+            "group": "46",
+            "highest": "1"
+          },
+          {
+            "name": "Spirited Tenacity",
+            "level": "20",
+            "cost": "3",
+            "description": "30% chance to replenish 6% of your total MP every second.",
+            "image": "E_crestpassivemprecoveryup_Tex.png",
+            "master": null,
+            "id": "5",
+            "group": "47"
+          },
+          {
+            "name": "Spirited Tenacity",
+            "level": "61",
+            "cost": "3",
+            "description": "50% chance to replenish 6% of your total MP every second.",
+            "image": "E_crestpassivepartympup_Tex.png",
+            "master": "1",
+            "id": "6",
+            "group": "47",
+            "highest": "1"
+          }
+        ],
+        "id": "q",
+        "name": "Tenacity",
+        "description": "Call on inner reserves to instantly replenish X MP. Briefly increases resistance to stun immensely."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Brilliant In Cold Blood",
+            "level": "58",
+            "cost": "3",
+            "description": "Reduces MP cost by 50.",
+            "image": "E_crestpassivempdown_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "48",
+            "highest": "1"
+          },
+          {
+            "name": "Blazing In Cold Blood",
+            "level": "58",
+            "cost": "2",
+            "description": "Speeds casting of Heart Thrust by 25% for a few seconds.",
+            "image": "E_crestnextskillattackspeedup_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "49",
+            "highest": "1"
+          }
+        ],
+        "id": "r",
+        "name": "In Cold Blood",
+        "description": "Increases Power by X for 20 sec. Increases Attack Speed by X%."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Empowered Exhausting Blow",
+            "level": "44",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "50",
+            "highest": "1"
+          },
+          {
+            "name": "Energetic Exhausting Blow",
+            "level": "44",
+            "cost": "6",
+            "description": "Decreases cooldown by 25%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": null,
+            "id": "1",
+            "group": "51"
+          },
+          {
+            "name": "Energetic Exhausting Blow",
+            "level": "58",
+            "cost": "6",
+            "description": "Decreases cooldown by 35%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "51",
+            "highest": "1"
+          }
+        ],
+        "id": "s",
+        "name": "Exhausting Blow",
+        "description": "Strike a painful blow that increases target's cooldown time by 50% for all skills they use in the next 15 seconds. Effective only on other players."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Carving Measured Slice",
+            "level": "60",
+            "cost": "5",
+            "description": "Doubles the chance to crit.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": null,
+            "id": "0",
+            "group": "52"
+          },
+          {
+            "name": "Carving Measured Slice",
+            "level": "65",
+            "cost": "4",
+            "description": "Triple Crit Chance.",
+            "image": "E_crestpassivecriticalup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "52",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Measured Slice",
+            "level": "60",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "2",
+            "group": "53"
+          },
+          {
+            "name": "Empowered Measured Slice",
+            "level": "65",
+            "cost": "4",
+            "description": "Increases skill damage by 30%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "3",
+            "group": "53",
+            "highest": "1"
+          }
+        ],
+        "id": "t",
+        "name": "Measured Slice",
+        "description": "Gather your might and make a wide slice at the enemy's neck. Skill activates faster following Overhand Strike or Eviscerate."
+      },
+      {
+        "glyph": [
+          {
+            "name": "Energetic Eviscerate",
+            "level": "63",
+            "cost": "4",
+            "description": "Decreases cooldown by 20%.",
+            "image": "E_crestpassivecooltimedown_Tex.png",
+            "master": "1",
+            "id": "0",
+            "group": "54",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Eviscerate",
+            "level": "63",
+            "cost": "3",
+            "description": "Increases damage of Measured Slice by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "1",
+            "group": "55",
+            "highest": "1"
+          },
+          {
+            "name": "Empowered Eviscerate",
+            "level": "63",
+            "cost": "5",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": null,
+            "id": "2",
+            "group": "56"
+          },
+          {
+            "name": "Empowered Eviscerate",
+            "level": "63",
+            "cost": "4",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "master": "1",
+            "id": "3",
+            "group": "56"
+          },
+          {
+            "name": "Empowered Eviscerate",
+            "level": "65",
+            "cost": "3",
+            "description": "Increases skill damage by 25%.",
+            "image": "E_crestpassiveattackup_Tex.png",
+            "rare": "1",
+            "master": "1",
+            "id": "4",
+            "group": "56",
+            "highest": "1"
+          },
+          {
+            "name": "Powerlinked Eviscerate",
+            "level": "63",
+            "cost": "3",
+            "description": "Increases damage of Overhand Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": null,
+            "id": "5",
+            "group": "57"
+          },
+          {
+            "name": "Powerlinked Eviscerate",
+            "level": "63",
+            "cost": "2",
+            "description": "Increases damage of Overhand Strike by 25% for a few seconds.",
+            "image": "E_crestnextskillattackup_Tex.png",
+            "master": "1",
+            "id": "6",
+            "group": "57",
+            "highest": "1"
+          }
+        ],
+        "id": "u",
+        "name": "Eviscerate",
+        "description": "Deals powerful damage and knocks the opponent down. This skill activates faster when following Overhand Strike, Whirlwind, Knockdown Strike, Leaping Strike, Stunning Backhand, Heart Thrust, Startling Kick, or the fourth consecutive hit with Combo Attack."
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+﻿<Controls:MetroWindow x:Class="TERA_Glyph_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TERA_Glyph_Calculator"
+        mc:Ignorable="d"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="TERA Glyph Calculator" Height="776.743" Width="814.84" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="0,-2,0,4">
+
+        <!-- Melee section -->
+        <Button x:Name="BerserkerClick" HorizontalAlignment="Left" Height="100" Margin="217,208,0,0" VerticalAlignment="Top" Width="100" Click="Berserker2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Berserker Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/berserker_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="NinjaClick" HorizontalAlignment="Left" Height="100" Margin="527,208,0,0" VerticalAlignment="Top" Width="100" Click="Ninja2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Ninja Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/ninja_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="ReaperClick" HorizontalAlignment="Left" Height="100" Margin="317,208,0,0" VerticalAlignment="Top" Width="100" Click="Reaper2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Reaper Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/reaper_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="SlayerClick" HorizontalAlignment="Left" Height="100" Margin="422,208,0,0" VerticalAlignment="Top" Width="100" Click="Slayer2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Slayer Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/slayer_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="ValkyrieClick" HorizontalAlignment="Left" Height="100" Margin="632,208,0,0" VerticalAlignment="Top" Width="100" Click="Valkyrie2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Valkyrie Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/valkyrie_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="WarriorClick" HorizontalAlignment="Left" Height="100" Margin="112,208,0,0" VerticalAlignment="Top" Width="100" Click="Warrior2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Warrior Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/warrior_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <!-- End Melee section-->
+
+        <!-- Ranged section -->
+        <Button x:Name="ArcherClick" HorizontalAlignment="Left" Height="100" Margin="112,355,0,0" VerticalAlignment="Top" Width="100"  Click="Archer2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Archer Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/archer_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="GunnerClick" HorizontalAlignment="Left" Height="100" Margin="217,355,0,0" VerticalAlignment="Top" Width="100" Click="Gunner2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Gunner Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/gunner_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="SorcererClick" HorizontalAlignment="Left" Height="100" Margin="322,355,0,0" VerticalAlignment="Top" Width="100" Click="Sorcerer2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Sorcerer Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/sorcerer_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <!-- End Ranged section-->
+
+        <!-- Heal Section -->
+        <Button x:Name="PriestClick" HorizontalAlignment="Left" Height="100" Margin="227,640,0,0" VerticalAlignment="Top" Width="100" Click="Priest2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Priest Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/priest_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="MysticClick" HorizontalAlignment="Left" Height="100" Margin="122,636,0,0" VerticalAlignment="Top" Width="100" Click="Mystic2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Mystic Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/mystic_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <!-- End Heal Section -->
+
+        <!-- Tank Section -->
+        <Button x:Name="LancerClick" HorizontalAlignment="Left" Height="100" Margin="122,484,0,0" VerticalAlignment="Top" Width="100" Click="Lancer2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Lancer Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/lancer_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="BrawlerClick" HorizontalAlignment="Left" Height="100" Margin="222,484,0,0" VerticalAlignment="Top" Width="100" Click="Brawler2_Click">
+            <Button.ToolTip>
+                <TextBlock Text="Brawler Class" />
+            </Button.ToolTip>
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="images/Class Images/brawler_class.png"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <!-- End Tank Section -->
+
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Hi there, is is a Application version of our web glyph calculator, to begin simply click on one of the images below." VerticalAlignment="Top" Height="164" Width="741" FontSize="36" FontWeight="Bold"/>
+        <Label x:Name="MeleeLabel" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top" Content="Melee Classes" Foreground="White" FontSize="18"/>
+        <Label x:Name="MeleeLabel_Copy" HorizontalAlignment="Left" Margin="10,321,0,0" VerticalAlignment="Top" Content="Ranged Classes" Foreground="White" FontSize="18"/>
+        <Label x:Name="MeleeLabel_Copy1" HorizontalAlignment="Left" Margin="10,460,0,0" VerticalAlignment="Top" Content="Tanking Classes" Foreground="White" FontSize="18"/>
+        <Label x:Name="MeleeLabel_Copy2" HorizontalAlignment="Left" Margin="10,584,0,0" VerticalAlignment="Top" Content="Healing Classes" Foreground="White" FontSize="18"/>
+
+    </Grid>
+</Controls:MetroWindow>
