@@ -15,8 +15,8 @@
                 <DataGridTemplateColumn Header="Image" Width="*" IsReadOnly="True">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <!--<Image Source="{Binding B}" Width="30px" Height="30px"/>-->
-                            <Image Source="{Binding Images}" Width="30px" Height="30px"/>
+                            <Image Source="{Binding B}" Width="30px" Height="30px"/>
+                            <!--<Image Source="{Binding Images}" Width="30px" Height="30px"/>-->
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -28,7 +28,7 @@
                 <DataGridTextColumn Header ="Glyphs" Binding="{Binding B}" Width="*" Foreground="White" FontWeight="Bold"/>
             </DataGrid.Columns>
         </DataGrid>
-        <DataGrid AutoGenerateColumns="False" HorizontalAlignment="Left" x:Name="dataGrid2_Copy" VerticalAlignment="Top" Background="Transparent" RowBackground="Transparent" Width="300" Height="363" IsReadOnly="True" Margin="600,0,-6,0">
+        <DataGrid AutoGenerateColumns="False" HorizontalAlignment="Left" x:Name="dataGrid3" VerticalAlignment="Top" Background="Transparent" RowBackground="Transparent" Width="300" Height="363" IsReadOnly="True" Margin="600,0,-6,0">
             <DataGrid.Columns >
                 <DataGridTextColumn Header ="Skill Name" Binding="{Binding A}" Width="*" Foreground="White" FontWeight="Bold" />
                 <DataGridTextColumn Header ="Glyphs" Binding="{Binding B}" Width="*" Foreground="White" FontWeight="Bold"/>

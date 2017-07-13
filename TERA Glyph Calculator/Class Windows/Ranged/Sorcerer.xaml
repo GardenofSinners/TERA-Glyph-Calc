@@ -12,7 +12,7 @@
             <DataGridTemplateColumn Header="Image" Width="SizeToCells" IsReadOnly="True">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <Image Source="/images/Skill Images/mystic_skill_icons_32x32.png" />
+                        <Image Source="/images/Skill Images/sorcerer_skill_icons_32x32.png" />
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>

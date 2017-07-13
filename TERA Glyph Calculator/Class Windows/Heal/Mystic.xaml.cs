@@ -62,19 +62,30 @@ namespace TERA_Glyph_Calculator.Class_Windows {
             //var LingeringSharasLashlv58 = responseData.@class.skill[4].glyph[1].image;
             //var FleetFootedSharasLashlv58 = responseData.@class.skill[4].glyph[2].image;
 
-            string[] SharaGlyphArray = new string[3];
-            SharaGlyphArray[0] = responseData.@class.skill[4].glyph[0].image;
-            SharaGlyphArray[1] = responseData.@class.skill[4].glyph[1].image;
-            SharaGlyphArray[2] = responseData.@class.skill[4].glyph[2].image;
+            string[] SharasLashGlyphArray = new string[3];
+            SharasLashGlyphArray[0] = responseData.@class.skill[4].glyph[0].image;
+            SharasLashGlyphArray[1] = responseData.@class.skill[4].glyph[1].image;
+            SharasLashGlyphArray[2] = responseData.@class.skill[4].glyph[2].image;
+
             //Mana Infusion
+            string[] ManaInfusionGlyphArray = new string[2];
+            ManaInfusionGlyphArray[0] = responseData.@class.skill[5].glyph[0].image;
+            
 
             //Metamorphic Blast
+            string[] MetamorphicBlastGlyphArray = new string[1];
+            MetamorphicBlastGlyphArray[0] = responseData.@class.skill[5].glyph[0].image;
 
             //Arun's Cleansing
+            string[] ArunsClensingGlyphArray = new string[1];
+            ArunsClensingGlyphArray[0] = responseData.@class.skill[6].glyph[0].image;
 
             //Resurrect
-
+            string[] RessurectGlyphArray = new string[1];
+            RessurectGlyphArray[0] = responseData.@class.skill[7].glyph[0].image;
             //Summon Party
+            string[] SummonPartyGlyphArray = new string[1];
+            SummonPartyGlyphArray[0] = responseData.@class.skill[8].glyph[0].image;
 
             var list = new ObservableCollection<Class>();
 
@@ -83,12 +94,12 @@ namespace TERA_Glyph_Calculator.Class_Windows {
             list.Add(new Class() { A = skillNames[1], B = (imagePath + SpiritedCorruptionRing) } );
             list.Add(new Class() { A = skillNames[2], B = (imagePath + LingeringAncientBinding) });
             list.Add(new Class() { A = skillNames[3], B = (imagePath + LongshotTitanicFavor) });
-            list.Add(new Class() { A = skillNames[4], B = (imagePath + SharaGlyphArray[0]) });
-            list.Add(new Class() { A = skillNames[5], B = (imagePath) });
-            list.Add(new Class() { A = skillNames[6], B = (imagePath) });
-            list.Add(new Class() { A = skillNames[7], B = (imagePath) });
-            list.Add(new Class() { A = skillNames[8], B = (imagePath) });
-            list.Add(new Class() { A = skillNames[9], B = (imagePath) }); //This is the 10th skill.
+            list.Add(new Class() { A = skillNames[4], B = (imagePath + SharasLashGlyphArray[0]) });
+            list.Add(new Class() { A = skillNames[5], B = (imagePath + ManaInfusionGlyphArray[0]) });
+            list.Add(new Class() { A = skillNames[6], B = (imagePath + MetamorphicBlastGlyphArray[0]) });
+            list.Add(new Class() { A = skillNames[7], B = (imagePath + ArunsClensingGlyphArray[0]) });
+            list.Add(new Class() { A = skillNames[8], B = (imagePath + RessurectGlyphArray[0]) });
+            list.Add(new Class() { A = skillNames[9], B = (imagePath + SummonPartyGlyphArray[0]) }); //This is the 10th skill.
 
             this.dataGrid1.ItemsSource = list;
 
